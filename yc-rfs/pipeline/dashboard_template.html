@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YC RFS: what they ask for vs. what they fund</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-0: #f4f3f0;
+    --surface-1: #fcfcfb;
+    --border: #dedcd6;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #78766f;
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --series-3: #1baf7a;
+    --series-4: #eda100;
+    --grid: #e7e5e0;
+    --pos: #2a78d6;
+    --neg: #e34948;
+    --seq-100: #cde2fb; --seq-250: #86b6ef; --seq-400: #3987e5; --seq-550: #1c5cab; --seq-700: #0d366b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-0: #111110;
+      --surface-1: #1a1a19;
+      --border: #35342f;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #96958c;
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --series-3: #199e70;
+      --series-4: #c98500;
+      --grid: #2b2a27;
+      --pos: #3987e5;
+      --neg: #e66767;
+      --seq-100: #0d366b; --seq-250: #184f95; --seq-400: #256abf; --seq-550: #3987e5; --seq-700: #86b6ef;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-0: #111110;
+    --surface-1: #1a1a19;
+    --border: #35342f;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #96958c;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --grid: #2b2a27;
+    --pos: #3987e5;
+    --neg: #e66767;
+    --seq-100: #0d366b; --seq-250: #184f95; --seq-400: #256abf; --seq-550: #3987e5; --seq-700: #86b6ef;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-0); color: var(--text-primary);
+    font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
+  header h1 { font-size: 1.6rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header p.sub { margin: 0 0 4px; color: var(--text-secondary); max-width: 72ch; }
+  .stamp { color: var(--text-muted); font-size: 0.82rem; }
+  nav { display: flex; gap: 4px; margin: 22px 0 20px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+  nav button {
+    background: none; border: 0; border-bottom: 2px solid transparent; padding: 9px 14px;
+    font: inherit; font-weight: 500; color: var(--text-secondary); cursor: pointer;
+  }
+  nav button[aria-selected="true"] { color: var(--text-primary); border-bottom-color: var(--series-1); }
+  nav button:hover { color: var(--text-primary); }
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 16px;
+  }
+  .card h2 { font-size: 1.02rem; margin: 0 0 3px; }
+  .card h3 { font-size: 0.92rem; margin: 18px 0 8px; color: var(--text-secondary); font-weight: 600; }
+  .card p.note { margin: 0 0 14px; color: var(--text-secondary); font-size: 0.88rem; max-width: 78ch; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 15px 16px; }
+  .tile .label { font-size: 0.78rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
+  .tile .value { font-size: 1.85rem; font-weight: 600; letter-spacing: -0.02em; margin: 5px 0 2px; font-variant-numeric: tabular-nums; }
+  .tile .foot { font-size: 0.8rem; color: var(--text-muted); }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.87rem; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th { color: var(--text-secondary); font-weight: 600; font-size: 0.79rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.wrap-cell { white-space: normal; min-width: 260px; color: var(--text-secondary); }
+  tr.dim td { color: var(--text-muted); }
+  select {
+    font: inherit; padding: 7px 10px; border-radius: 7px; border: 1px solid var(--border);
+    background: var(--surface-1); color: var(--text-primary); max-width: 100%;
+  }
+  .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 10px; }
+  .legend span.key { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+  .bar-row { display: grid; grid-template-columns: 210px 1fr 74px; gap: 10px; align-items: center; margin-bottom: 5px; font-size: 0.85rem; }
+  .bar-track { background: var(--grid); border-radius: 4px; height: 15px; position: relative; }
+  .bar-fill { background: var(--series-1); height: 100%; border-radius: 4px; min-width: 2px; }
+  .bar-label { color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar-val { text-align: right; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+  .bar-row.thin .bar-label, .bar-row.thin .bar-val { color: var(--text-muted); }
+  .bar-row.thin .bar-fill { background: var(--text-muted); opacity: .4; }
+  .muted { color: var(--text-muted); }
+  .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 0.76rem; border: 1px solid var(--border); color: var(--text-secondary); margin: 0 4px 4px 0; }
+  .caveat { border-left: 3px solid var(--series-4); padding-left: 13px; margin: 12px 0; color: var(--text-secondary); font-size: 0.88rem; }
+  svg { max-width: 100%; height: auto; display: block; }
+  .tooltip {
+    position: fixed; pointer-events: none; opacity: 0; transition: opacity .1s;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 7px;
+    padding: 7px 10px; font-size: 0.82rem; box-shadow: 0 6px 20px rgba(0,0,0,.14); z-index: 50; max-width: 300px;
+  }
+  a { color: var(--series-1); }
+  .theme-desc { font-size: 0.88rem; color: var(--text-secondary); max-width: 82ch; }
+  footer { color: var(--text-muted); font-size: 0.82rem; margin-top: 26px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>YC Requests for Startups: what they ask for vs. what they fund</h1>
+    <p class="sub">Two questions across YC's per-batch RFS (Summer&nbsp;2024 – Summer&nbsp;2026): do admitted companies actually match the themes YC publishes, and do theme-matching companies show stronger early traction than their batchmates?</p>
+    <p class="stamp" id="stamp"></p>
+  </header>
+
+  <nav id="tabs" role="tablist">
+    <button role="tab" data-view="overview" aria-selected="true">Overview</button>
+    <button role="tab" data-view="themes" aria-selected="false">Theme explorer</button>
+    <button role="tab" data-view="batches" aria-selected="false">Batch view</button>
+    <button role="tab" data-view="method" aria-selected="false">Methodology</button>
+  </nav>
+
+  <main id="view"></main>
+
+  <footer>
+    Company data: <a href="https://github.com/yc-oss/api">yc-oss/api</a> (daily mirror of YC's public directory; launched companies only).
+    RFS text: <a href="https://www.ycombinator.com/rfs">ycombinator.com/rfs</a>. Descriptive analysis — no causal claims.
+  </footer>
+</div>
+<div class="tooltip" id="tip"></div>
+
+<script>/*__RFS_DATA__*/</script>
+<script>
+const D = window.RFS_DATA;
+const V = () => D.variants[state.variant];
+const state = { view: "overview", variant: "strong", theme: null, batch: null };
+const tip = document.getElementById("tip");
+const pct = x => x == null ? "—" : (x * 100).toFixed(x >= 0.1 ? 0 : 1) + "%";
+const signed = x => x == null ? "—" : (x >= 0 ? "+" : "") + (x * 100).toFixed(1) + " pp";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const themeName = id => (D.themes.find(t => t.id === id) || {}).name || id;
+const MIN_N = D.min_cell || 5;
+// Below MIN_N a share is not a measurement — show the count instead of a rate.
+const rate = (k, n) => n < MIN_N ? `${k}/${n}` : pct(k / n);
+const thin = n => n < MIN_N;
+
+function showTip(html, ev) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = ev.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => (tip.style.opacity = 0);
+function hoverable(el, html) {
+  el.addEventListener("mousemove", e => showTip(html, e));
+  el.addEventListener("mouseleave", hideTip);
+}
+
+/* ---------- charts ---------- */
+function lineChart(series, opts = {}) {
+  // series: [{name, color, points:[{x,label,y,n,k,marked}]}]
+  const W = opts.width || 860, H = opts.height || 260;
+  const m = { t: 14, r: 16, b: 42, l: 46 };
+  const xs = series[0].points.map(p => p.label);
+  const maxY = Math.max(opts.minMax || 0.05, ...series.flatMap(s => s.points.map(p => p.y || 0))) * 1.15;
+  const px = i => m.l + (xs.length === 1 ? 0 : i * (W - m.l - m.r) / (xs.length - 1));
+  const py = v => H - m.b - (v / maxY) * (H - m.t - m.b);
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("role", "img");
+  const add = (tag, attrs, parent = svg) => {
+    const e = document.createElementNS(ns, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    parent.appendChild(e); return e;
+  };
+  const ticks = 4;
+  for (let i = 0; i <= ticks; i++) {
+    const v = maxY * i / ticks;
+    add("line", { x1: m.l, x2: W - m.r, y1: py(v), y2: py(v), stroke: "var(--grid)", "stroke-width": 1 });
+    add("text", { x: m.l - 8, y: py(v) + 4, "text-anchor": "end", fill: "var(--text-muted)", "font-size": 11 })
+      .textContent = (v * 100).toFixed(0) + "%";
+  }
+  xs.forEach((lab, i) => {
+    const t = add("text", { x: px(i), y: H - m.b + 16, "text-anchor": "middle", fill: "var(--text-muted)", "font-size": 10.5 });
+    t.textContent = lab.replace(/(\w)\w+ (\d{4})/, (_, a, y) => a + y.slice(2));
+  });
+  series.forEach(s => {
+    const d = s.points.map((p, i) => `${i ? "L" : "M"}${px(i)},${py(p.y || 0)}`).join(" ");
+    add("path", { d, fill: "none", stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round" });
+    s.points.forEach((p, i) => {
+      if (p.noRfs) {
+        add("rect", { x: px(i) - 9, y: m.t, width: 18, height: H - m.t - m.b,
+                      fill: "var(--text-muted)", opacity: 0.09 });
+      }
+      const r = p.marked ? 5.5 : 3.5;
+      const c = add("circle", {
+        cx: px(i), cy: py(p.y || 0), r,
+        fill: p.marked ? s.color : "var(--surface-1)",
+        stroke: s.color, "stroke-width": 2
+      });
+      c.style.cursor = "crosshair";
+      hoverable(c, `<strong>${esc(p.label)}</strong><br>${esc(s.name)}: ${p.n ? rate(p.k, p.n) : pct(p.y)}` +
+        (p.k != null ? `<br>${p.k} of ${p.n} companies` : "") +
+        (p.marked ? "<br><em>in that batch's RFS</em>" : "") +
+        (p.noRfs ? "<br><em>no RFS published for this batch</em>" : ""));
+    });
+  });
+  return svg;
+}
+
+function barRows(items, opts = {}) {
+  const max = Math.max(...items.map(i => i.value), opts.min || 0.0001);
+  const div = document.createElement("div");
+  items.forEach(it => {
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    if (it.dim) row.classList.add("thin");
+    row.innerHTML = `<div class="bar-label" title="${esc(it.label)}">${esc(it.label)}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(it.value / max * 100).toFixed(1)}%;${it.color ? "background:" + it.color : ""}"></div></div>
+      <div class="bar-val">${esc(it.display)}</div>`;
+    if (it.tip) hoverable(row, it.tip);
+    if (it.onClick) { row.style.cursor = "pointer"; row.addEventListener("click", it.onClick); }
+    div.appendChild(row);
+  });
+  return div;
+}
+
+/* ---------- views ---------- */
+function variantControl() {
+  return `<div class="controls">
+    <label for="variant">Match strictness</label>
+    <select id="variant">
+      <option value="strong"${state.variant === "strong" ? " selected" : ""}>Strong matches only (headline)</option>
+      <option value="strong_plus_partial"${state.variant === "strong_plus_partial" ? " selected" : ""}>Strong + partial (sensitivity)</option>
+    </select>
+  </div>`;
+}
+
+function viewOverview() {
+  const v = V(), q1a = v.q1a, q2 = v.q2.own_rfs;
+  const eraBatches = Object.keys(q1a);
+  const totN = eraBatches.reduce((a, b) => a + q1a[b].n, 0);
+  const totM = eraBatches.reduce((a, b) => a + q1a[b].n_matched, 0);
+  const shifts = Object.entries(v.q1b)
+    .filter(([, r]) => r.diff != null && r.n_active >= 40)
+    .sort((a, b) => (b[1].robust_both_baselines - a[1].robust_both_baselines)
+                 || (b[1].survives_fdr - a[1].survives_fdr)
+                 || (b[1].diff - a[1].diff));
+  const robust = shifts.filter(([, r]) => r.robust_both_baselines);
+  const pooled = q2.pooled_weighted_diffs;
+
+  const el = document.createElement("div");
+  el.innerHTML = variantControl() + `
+    <div class="tiles">
+      <div class="tile"><div class="label">Own-RFS alignment</div><div class="value">${pct(totM / totN)}</div>
+        <div class="foot">${totM} of ${totN} RFS-era companies match ≥1 theme from their own batch's RFS</div></div>
+      <div class="tile"><div class="label">Robust theme shifts</div><div class="value">${robust.length}</div>
+        <div class="foot">of ${shifts.length} tested — survive FDR correction <em>and</em> both baselines${robust.length ? "; largest " + esc(themeName(robust[0][0])) + " " + signed(robust[0][1].diff) : ""}</div></div>
+      <div class="tile"><div class="label">Traction gap</div><div class="value">${pooled.mean_traction_diff == null ? "—" : (pooled.mean_traction_diff >= 0 ? "+" : "") + pooled.mean_traction_diff.toFixed(1)}</div>
+        <div class="foot">composite points, RFS-matchers vs. batchmates (0–100 scale)</div></div>
+      <div class="tile"><div class="label">Survival gap</div><div class="value">${signed(pooled.survival_diff)}</div>
+        <div class="foot">matchers vs. batchmates, within-batch weighted</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Alignment by batch</h2>
+      <p class="note">Share of each batch's launched companies matching at least one theme from that same batch's published RFS. Bars show the share; hover for counts and the Wilson 95% interval.</p>
+      <div id="align-bars"></div>
+    </div>
+
+    <div class="card">
+      <h2>Themes that moved most after appearing in an RFS</h2>
+      <p class="note">Change in a theme's share of admitted companies: batches where the theme was in the RFS vs. the pre-RFS baseline. Bootstrap 95% intervals; themes with fewer than 40 companies in the active window are excluded. Bold rows survive false-discovery-rate correction <em>and</em> hold against the shorter post-ChatGPT baseline; greyed rows do not and should be read as noise.</p>
+      <div class="scroll"><table id="shift-table"></table></div>
+      ${D.boundary ? `<div class="caveat"><strong>The top row is a function of where a theme boundary was drawn.</strong> Agent infrastructure and vertical AI agents overlap heavily. Three defensible definitions of that boundary produce three answers for the agent-infrastructure shift: ${signed(D.boundary.agent_infra_shift_v2)} under the original fuzzy wording, ${signed(D.boundary.agent_infra_shift_v3)} under the sharpened wording used here (every company re-classified, so all ${D.themes.length} themes share one standard), and ${signed(D.boundary.agent_infra_shift_strict_probe)} under a stricter one-off probe. That is a ~${D.boundary.swing_factor}× spread from definition alone. The probe was unvalidated and demonstrably over-strict — it discarded companies literally described as "AI Agents for Audit" — so it is not a measurement, but the spread is real. Read this theme's shift as "definition-dependent", not settled.</div>` : ""}
+      <div class="caveat"><strong>Most of this movement is vocabulary, not portfolio.</strong> Inside the fixed slice of companies YC's own tags mark as AI-related, the era gap in match rates is only ${pct(D.drift?.ai_tagged_gap_any ?? null)} — versus ${pct(D.drift?.overall_gap_any ?? null)} overall. Companies simply describe themselves with far more AI language now (mean AI-keyword count ${D.drift ? "+" + Math.round(D.drift.keyword_growth_pct) + "%" : "up sharply"} between eras) while YC's own AI tagging barely moved. Treat these shifts as upper bounds.</div>
+    </div>
+
+    <div class="card">
+      <h2>Do RFS-matchers show better early traction?</h2>
+      <p class="note">Within each batch, companies matching that batch's RFS vs. everyone else, then averaged across batches weighted by batch size. These are 0–2 year old companies: this is early trajectory, not success.</p>
+      <div class="scroll"><table id="q2-table"></table></div>
+      <div class="caveat">Positive gaps here are not evidence that RFS themes cause success. Theme-matching companies are disproportionately AI-native, and AI-native companies in these batches are younger, better funded, and hire faster — the composite partly measures that.</div>
+    </div>`;
+
+  const bars = eraBatches.map(b => ({
+    label: b, value: q1a[b].share, display: pct(q1a[b].share),
+    tip: `<strong>${esc(b)}</strong><br>${q1a[b].n_matched} of ${q1a[b].n} companies<br>95% CI ${pct(q1a[b].wilson_ci[0])}–${pct(q1a[b].wilson_ci[1])}`,
+    onClick: () => { state.batch = b; state.view = "batches"; render(); }
+  }));
+  el.querySelector("#align-bars").appendChild(barRows(bars));
+
+  const st = el.querySelector("#shift-table");
+  st.innerHTML = `<thead><tr><th>Theme</th><th class="num">Baseline → active</th>
+    <th class="num">Shift</th><th class="num">95% CI</th>
+    <th class="num">FDR q</th><th>Holds vs. late baseline</th></tr></thead><tbody>` +
+    shifts.slice(0, 16).map(([id, r]) => {
+      const late = r.baselines.late;
+      const lateSig = late.diff_ci95[0] != null && (late.diff_ci95[0] > 0 || late.diff_ci95[1] < 0);
+      return `<tr class="${r.robust_both_baselines ? "" : "dim"}">
+        <td>${r.robust_both_baselines ? "<strong>" + esc(r.name) + "</strong>" : esc(r.name)}</td>
+        <td class="num">${pct(r.share_baseline)} → ${pct(r.share_active)}</td>
+        <td class="num" style="color:${r.diff >= 0 ? "var(--pos)" : "var(--neg)"}">${signed(r.diff)}</td>
+        <td class="num muted">${r.diff_ci95[0] == null ? "—" : signed(r.diff_ci95[0]) + " … " + signed(r.diff_ci95[1])}</td>
+        <td class="num">${r.q_value == null ? "—" : (r.q_value < 0.001 ? "&lt;0.001" : r.q_value.toFixed(3))}</td>
+        <td>${lateSig ? signed(late.diff) + " ✓" : '<span class="muted">no</span>'}</td></tr>`;
+    }).join("") + "</tbody>";
+
+  const rows = [
+    ["Survival (not inactive)", "survival_diff"],
+    ["Reached Growth stage", "pct_growth_diff"],
+    ["Currently hiring", "pct_hiring_diff"],
+  ];
+  el.querySelector("#q2-table").innerHTML =
+    `<thead><tr><th>Metric</th><th class="num">Matchers − non-matchers</th></tr></thead><tbody>` +
+    rows.map(([lab, k]) => `<tr><td>${lab}</td><td class="num" style="color:${(pooled[k] || 0) >= 0 ? "var(--pos)" : "var(--neg)"}">${signed(pooled[k])}</td></tr>`).join("") +
+    `<tr><td><strong>Composite traction score</strong></td><td class="num"><strong>${pooled.mean_traction_diff == null ? "—" : (pooled.mean_traction_diff >= 0 ? "+" : "") + pooled.mean_traction_diff.toFixed(1) + " pts"}</strong></td></tr>` +
+    `</tbody>`;
+  return el;
+}
+
+function viewThemes() {
+  const v = V();
+  const ids = D.themes.map(t => t.id).sort((a, b) => themeName(a).localeCompare(themeName(b)));
+  if (!state.theme || !ids.includes(state.theme)) {
+    state.theme = Object.entries(v.q1b).sort((a, b) => (b[1].n_active || 0) - (a[1].n_active || 0))[0][0];
+  }
+  const t = D.themes.find(x => x.id === state.theme);
+  const r = v.q1b[state.theme];
+  const companies = (v.theme_companies[state.theme] || []);  // tracks the strictness toggle
+
+  const el = document.createElement("div");
+  el.innerHTML = `<div class="controls">
+      <label for="theme-sel">Theme</label>
+      <select id="theme-sel">${ids.map(id => `<option value="${id}"${id === state.theme ? " selected" : ""}>${esc(themeName(id))}</option>`).join("")}</select>
+      <select id="variant">
+        <option value="strong"${state.variant === "strong" ? " selected" : ""}>Strong only</option>
+        <option value="strong_plus_partial"${state.variant === "strong_plus_partial" ? " selected" : ""}>Strong + partial</option>
+      </select>
+    </div>
+    <div class="card">
+      <h2>${esc(t.name)}</h2>
+      <div>${t.members.map(m => `<span class="pill">${esc(m.batch)}: ${esc(m.title)}</span>`).join("")}</div>
+      <p class="theme-desc" style="margin-top:10px">${esc(t.members[0].summary || "")}</p>
+    </div>
+    <div class="card">
+      <h2>Share of each batch matching this theme</h2>
+      <p class="note">Filled points are batches where this theme appeared in the RFS. The pre-RFS baseline (Winter 2022 – Winter 2024) is the comparison window.</p>
+      <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-1)"></span>share of batch matching this theme</span>
+      <span class="key"><span class="swatch" style="background:var(--series-1);border-radius:50%"></span>filled = theme was in that batch's RFS</span>
+      <span class="key"><span class="swatch" style="background:var(--text-muted);opacity:.45"></span>${D.no_rfs_batches.join(" &amp; ")} — no RFS published</span></div>
+      <div id="ts"></div>
+      <div class="tiles" style="margin-top:14px">
+        <div class="tile"><div class="label">When in the RFS</div><div class="value">${pct(r.share_active)}</div><div class="foot">${r.n_active} companies across ${r.active_batches.length} batch(es)</div></div>
+        <div class="tile"><div class="label">Shift vs. full baseline</div><div class="value" style="color:${(r.diff || 0) >= 0 ? "var(--pos)" : "var(--neg)"}">${signed(r.diff)}</div><div class="foot">from ${pct(r.share_baseline)} · ${D.baselines.full.length} batches · CI ${r.diff_ci95[0] == null ? "—" : signed(r.diff_ci95[0]) + " … " + signed(r.diff_ci95[1])}</div></div>
+        <div class="tile"><div class="label">Shift vs. late baseline</div><div class="value" style="color:${(r.baselines.late.diff || 0) >= 0 ? "var(--pos)" : "var(--neg)"}">${signed(r.baselines.late.diff)}</div><div class="foot">from ${pct(r.baselines.late.share_baseline)} · post-ChatGPT only · CI ${r.baselines.late.diff_ci95[0] == null ? "—" : signed(r.baselines.late.diff_ci95[0]) + " … " + signed(r.baselines.late.diff_ci95[1])}</div></div>
+        <div class="tile"><div class="label">Robust?</div><div class="value">${r.robust_both_baselines ? "yes" : "no"}</div><div class="foot">${r.robust_both_baselines ? "survives FDR correction and both baselines" : (r.survives_fdr ? "survives FDR but not the late baseline" : "does not survive multiple-comparison correction")}</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Matched companies <span class="muted" style="font-weight:400">(${companies.length})</span></h2>
+      ${companies.length ? '<div class="scroll"><table id="co"></table></div>' : '<p class="note">No companies matched this theme at the current strictness.</p>'}
+    </div>`;
+
+  const pts = D.batches.map(b => {
+    const s = r.series[b];
+    return { label: b, y: s ? s.share : 0, n: s ? s.n : 0, k: s ? s.k : 0,
+             marked: r.active_batches.includes(b), noRfs: D.no_rfs_batches.includes(b) };
+  });
+  el.querySelector("#ts").appendChild(lineChart([{ name: "share of batch", color: "var(--series-1)", points: pts }]));
+
+  if (companies.length) {
+    el.querySelector("#co").innerHTML =
+      `<thead><tr><th>Company</th><th>Batch</th><th>Status</th><th>Stage</th><th class="num">Team</th><th>What they do</th><th>Why matched</th></tr></thead><tbody>` +
+      companies.map(c => `<tr><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a></td>
+        <td>${esc(c.batch)}</td><td>${esc(c.status)}</td><td>${esc(c.stage)}</td>
+        <td class="num">${c.team_size ?? "—"}</td><td class="wrap-cell">${esc(c.one_liner || "")}</td>
+        <td class="wrap-cell muted">${esc(c.why || "—")}</td></tr>`).join("") + "</tbody>";
+  }
+  return el;
+}
+
+function viewBatches() {
+  const v = V(), q1a = v.q1a;
+  const batches = Object.keys(q1a);
+  if (!state.batch || !batches.includes(state.batch)) state.batch = batches[batches.length - 1];
+  const r = q1a[state.batch];
+  const q2b = v.q2.own_rfs.per_batch[state.batch];
+
+  const el = document.createElement("div");
+  el.innerHTML = `<div class="controls">
+      <label for="batch-sel">Batch</label>
+      <select id="batch-sel">${batches.map(b => `<option value="${b}"${b === state.batch ? " selected" : ""}>${esc(b)}</option>`).join("")}</select>
+      <select id="variant">
+        <option value="strong"${state.variant === "strong" ? " selected" : ""}>Strong only</option>
+        <option value="strong_plus_partial"${state.variant === "strong_plus_partial" ? " selected" : ""}>Strong + partial</option>
+      </select>
+    </div>
+    <div class="tiles">
+      <div class="tile"><div class="label">Companies</div><div class="value">${r.n}</div><div class="foot">launched &amp; public in this batch</div></div>
+      <div class="tile"><div class="label">Match own RFS</div><div class="value">${pct(r.share)}</div><div class="foot">${r.n_matched} companies; 95% CI ${pct(r.wilson_ci[0])}–${pct(r.wilson_ci[1])}</div></div>
+      <div class="tile"><div class="label">Themes in this RFS</div><div class="value">${Object.keys(r.per_theme).length}</div><div class="foot">canonical themes published for this batch</div></div>
+    </div>
+    <div class="card">
+      <h2>Companies admitted per RFS theme — ${esc(state.batch)}</h2>
+      <p class="note">How many of this batch's companies matched each theme YC published for it. Click a row to open the theme. Counts below ${MIN_N} are shown as raw counts rather than percentages — at that size a rate moves double digits when one company changes, so it isn't a measurement. A theme with no companies is a real finding: YC asked and nobody came.</p>
+      <div id="theme-bars"></div>
+    </div>
+    ${q2b ? `<div class="card">
+      <h2>Matchers vs. non-matchers in this batch</h2>
+      <div class="scroll"><table id="q2b"></table></div>
+      ${(q2b.matchers.n < MIN_N || q2b.non_matchers.n < MIN_N) ? '<p class="note" style="margin-top:10px">One group has fewer than 5 companies — differences here are noise.</p>' : ""}
+    </div>` : ""}`;
+
+  const items = Object.entries(r.per_theme).sort((a, b) => b[1] - a[1]).map(([id, k]) => ({
+    label: themeName(id), value: k,
+    display: thin(k) ? `${k}` : `${k} (${pct(k / r.n)})`,
+    dim: thin(k),
+    tip: `<strong>${esc(themeName(id))}</strong><br>${k} of ${r.n} companies in ${esc(state.batch)}` +
+         (thin(k) ? `<br><em>below the ${MIN_N}-company floor — count only, no rate</em>` : ""),
+    onClick: () => { state.theme = id; state.view = "themes"; render(); }
+  }));
+  el.querySelector("#theme-bars").appendChild(barRows(items));
+
+  if (q2b) {
+    const m = q2b.matchers, nm = q2b.non_matchers;
+    const cell = (g, f) => thin(g.n) ? '<span class="muted">n too small</span>' : f(g);
+    const row = (lab, f) => `<tr><td>${lab}</td><td class="num">${cell(m, f)}</td><td class="num">${cell(nm, f)}</td></tr>`;
+    el.querySelector("#q2b").innerHTML =
+      `<thead><tr><th>Metric</th><th class="num">Matchers (n=${m.n})</th><th class="num">Others (n=${nm.n})</th></tr></thead><tbody>` +
+      row("Survival", g => pct(g.survival)) +
+      row("Reached Growth", g => pct(g.pct_growth)) +
+      row("Median team size", g => g.median_team_size ?? "—") +
+      row("Currently hiring", g => pct(g.pct_hiring)) +
+      row("Composite traction", g => g.mean_traction == null ? "—" : g.mean_traction.toFixed(1)) +
+      "</tbody>";
+  }
+  return el;
+}
+
+function viewMethod() {
+  const val = D.validation || {};
+  const el = document.createElement("div");
+  el.innerHTML = `
+    <div class="card">
+      <h2>What this measures</h2>
+      <p class="note">Every company in YC's public directory for the batches below was classified against a catalog of ${D.themes.length} canonical RFS themes (clustered from the 96 batch-theme pairs YC published across 8 batches). Q1 compares those matches to the RFS YC published; Q2 compares matchers' outcomes to their own batchmates.</p>
+      ${D.test_retest ? `<h3>Reliability — read this before quoting a per-theme number</h3>
+      <div class="caveat"><strong>Running the same pipeline twice gives noticeably different labels.</strong> ${D.test_retest.n_companies_double_classified} companies were classified twice by independent runs using the identical catalog and prompt. They agree just <strong>${pct(D.test_retest.agreement_matches_anything)}</strong> of the time on whether a company matches <em>any</em> theme, and the overlap between the two theme sets averages <strong>${D.test_retest.mean_jaccard_theme_sets.toFixed(2)}</strong> (Jaccard). About a third of companies land differently on a re-run.<br><br>
+      That is the measurement floor here. Batch-level rates average over ~1,200 companies and survive it. A single theme's shift of a point or two does not — it is below the noise. The accuracy score below is measured on a stratified sample that deliberately oversamples clear-cut cases, so it is the optimistic bound, not the typical one.</div>` : ""}
+      <h3>Why a company matched</h3>
+      <p class="note">Each match carries a one-line rationale from the classifier, shown in the theme explorer's company table. These exist so a disputed match can be adjudicated against the classifier's stated reason rather than re-derived by eye.</p>
+      <h3>Classifier accuracy</h3>
+      ${val.n_pairs ? `<p class="note">Blind re-labelling of ${val.n_pairs} stratified (company, theme) pairs by an independent model that never saw the original labels:
+        <strong>${pct(val.binary_agreement)}</strong> agreement on match/no-match, ${pct(val.strict_agreement)} on the exact three-way label.
+        Precision ${pct(val.precision_binary)}, recall ${pct(val.recall_binary)}.</p>
+        <p class="note">Errors are one-sided: the classifier over-calls matches rather than missing them. Absolute match rates on this page are therefore somewhat too high. Comparisons between groups — batch vs. batch, theme-active vs. baseline, matchers vs. batchmates — are affected far less, because the same over-calling applies on both sides.</p>
+        <p class="note">The strong-vs-partial boundary is the noisy part; match-vs-no-match is the reliable signal. Use the strictness control to see how much any number depends on it.</p>`
+      : `<p class="note">Validation scores not yet computed.</p>`}
+      <h3>Composite traction score (0–100)</h3>
+      <p class="note">Survival ${D.weights.survival} · reached Growth stage ${D.weights.growth} · team size percentile within batch ${D.weights.team} · currently hiring ${D.weights.hiring}. Acquisitions count as positive outcomes. Every view also shows the raw components, which are the honest numbers; the composite exists only for glanceability.</p>
+      <p class="note">YC's “top company” flag was dropped from the score: it is true for 0 of the companies in scope (YC awards it only to older winners), so including it added dead weight rather than signal.</p>
+      <h3>Multiple comparisons and baselines</h3>
+      <p class="note">Every theme is a separate test, so testing dozens of them guarantees some false positives. Shifts carry Benjamini–Hochberg false-discovery-rate q-values, and are additionally re-run against a second, shorter pre-RFS baseline (${D.baselines.late.join(", ")}) that sits entirely after ChatGPT's launch. Only shifts that clear FDR correction <em>and</em> hold against that later baseline are treated as robust — ${D.fdr.strong.n_robust_both_baselines} of ${D.fdr.strong.n_tested} tested.</p>
+      <h3>Small cells</h3>
+      <p class="note">Any group below ${MIN_N} companies is shown as a raw count rather than a percentage. At that size a single company changes a rate by double digits.</p>
+    </div>
+    <div class="card">
+      <h2>Limitations</h2>
+      <div class="caveat"><strong>This is early traction, not success.</strong> The oldest RFS-era batch is about two years old and roughly 95% of those companies are still Active/Early. Nothing here measures outcomes in the venture sense.</div>
+      <div class="caveat"><strong>Admits, not applicants.</strong> Alignment between an RFS and a batch conflates YC selecting for a theme, founders responding to the RFS, and the RFS describing a trend already in the pipeline. The pre-RFS baseline narrows this; it cannot separate the three. Nothing here is causal.</div>
+      <div class="caveat"><strong>Launched companies only.</strong> The source dataset covers publicly launched companies, so stealth companies in recent batches are invisible — recent batches are undercounted and their theme mix may be skewed.</div>
+      <div class="caveat"><strong>No funding or revenue data.</strong> The dataset has none, so the traction proxies are limited to survival, stage, team size, and YC's own flags.</div>
+      <div class="caveat"><strong>Small cell sizes.</strong> Theme-level counts within a single batch are often under 20 companies. Confidence intervals are shown everywhere; treat any single-theme, single-batch number as indicative only.</div>
+      <div class="caveat"><strong>The theme catalog is a judgement call.</strong> YC's 96 published themes were clustered into ${D.themes.length} canonical themes by hand. Different clustering would move the numbers. The two largest themes — vertical AI agents and agent infrastructure — have a genuinely blurry boundary and together carry a large share of all matches.</div>
+      ${D.drift ? `<div class="caveat"><strong>Companies describe themselves differently over time, and that inflates the shifts.</strong> Between eras the mean count of AI-ish keywords in a company blurb rose ${Math.round(D.drift.keyword_growth_pct)}%, while YC's own AI tagging barely moved (${pct(D.drift.ai_tag_share_baseline)} → ${pct(D.drift.ai_tag_share_rfs)}). Inside the fixed slice of AI-tagged companies the era gap is only ${pct(D.drift.ai_tagged_gap_any)} versus ${pct(D.drift.overall_gap_any)} overall, and it nearly vanishes among companies already using heavy AI language. Much of the apparent movement is language, not portfolio.</div>` : ""}
+      ${D.leak_test ? `<div class="caveat"><strong>The classifier could see each company's batch.</strong> Re-classifying a ${D.leak_test.n}-company subset with the batch label hidden shrank the era gap from ${signed(D.leak_test.gap_with_batch)} to ${signed(D.leak_test.gap_without_batch)}. That run was also far more permissive overall, which compresses any gap, so this is suggestive rather than a clean measurement — but it points the same direction as the vocabulary analysis.</div>` : ""}
+    </div>
+    <div class="card">
+      <h2>Batches</h2>
+      <p class="note"><strong>Pre-RFS baseline:</strong> ${D.baseline.join(", ")}.<br>
+      <strong>RFS era:</strong> ${D.rfs_era.join(", ")}. Fall 2026 and later are excluded — almost no companies from those batches have launched publicly yet.</p>
+    </div>`;
+  return el;
+}
+
+/* ---------- shell ---------- */
+function render() {
+  document.querySelectorAll("#tabs button").forEach(b =>
+    b.setAttribute("aria-selected", String(b.dataset.view === state.view)));
+  const host = document.getElementById("view");
+  host.innerHTML = "";
+  hideTip();
+  host.appendChild({ overview: viewOverview, themes: viewThemes, batches: viewBatches, method: viewMethod }[state.view]());
+  const vs = host.querySelector("#variant");
+  if (vs) vs.addEventListener("change", e => { state.variant = e.target.value; render(); });
+  const ts = host.querySelector("#theme-sel");
+  if (ts) ts.addEventListener("change", e => { state.theme = e.target.value; render(); });
+  const bs = host.querySelector("#batch-sel");
+  if (bs) bs.addEventListener("change", e => { state.batch = e.target.value; render(); });
+}
+document.getElementById("tabs").addEventListener("click", e => {
+  const b = e.target.closest("button[data-view]");
+  if (b) { state.view = b.dataset.view; render(); }
+});
+document.getElementById("stamp").textContent =
+  `${D.themes.length} canonical themes from 96 published RFS entries · ${D.rfs_era.length} RFS-era batches vs. ${D.baseline.length} pre-RFS baseline batches`;
+render();
+</script>
+</body>
+</html>

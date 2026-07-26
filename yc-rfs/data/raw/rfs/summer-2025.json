@@ -1,0 +1,77 @@
+{
+ "batch": "Summer 2025",
+ "scraped_at": "2026-07-26",
+ "source": "https://www.ycombinator.com/rfs",
+ "themes": [
+  {
+   "title": "Full-stack AI Companies",
+   "author": "Jared Friedman",
+   "description": "At YC, I would like to fund more founders working on full-stack AI companies. What is a full-stack AI company, you ask? Let me give an example.  \n\nSuppose you believe that LLMs are now able to automate a lot of legal work. There are two things you might do with that idea. You could build an AI agent and sell it to law firms. That's what most people do. \n\nOr, you could start your own law firm, staff it with AI agents, and compete with the existing law firms.  \n\nThat, my friends, is going full-stack. You could do this for any industry, especially one dominated by slow-moving incumbents.  Instead of selling to the dinosaurs, you could make them extinct."
+  },
+  {
+   "title": "More Design Founders",
+   "author": "Aaron Epstein",
+   "description": "More designers should be founders.\n\nOver the next decade, as new coding tools make it easier than ever to build and ship products quickly, great design is going to matter even more.\n\nEspecially as many designers are worried about AI replacing their jobs, the real opportunity is for designers to use AI themselves to launch their own products and build their own companies. The design job of the future will be \"founder\".\n\nDesigners already have so many of the skills needed to be great – strong user empathy, a focus on solving problems, a high bar for quality, and taste. These are a must for every founding team.\n\nThat's why it's no accident that some of the biggest YC companies, like Airbnb and Stripe, are known for their exceptional design.  Without it, users wouldn't have trusted staying in a stranger's Airbnb, or trusted securely processing billions in credit card transactions through Stripe. These companies simply wouldn't have worked without first class design.\n\nSo we'd love to see more designers take the leap and start companies, and hope to fund teams with strong design and taste embedded in their core from the earliest days."
+  },
+  {
+   "title": "Voice AI",
+   "author": "Gustaf Alströmer",
+   "description": "Humans interact with businesses in many ways, but one way hasn't changed much in almost 100 years—and that's phone calls. You probably have experienced long wait times, voice trees, the press star or pound. In the end, we always want to talk to a human agent because the alternatives are just not that great. \n\nBut the new voice models and conversational LLMs are now incredibly good. And startups who take advantage of them are are now making voice AI bots that are indistinguishable from humans. It's pretty amazing and the unlock was the quality of these models. \n\nToday, over a trillion calls exist between a business and a customer. What we like to do at YC is to peek into the future, and talking to a voice AI bot feels like experiencing the future - similar to how it felt to ride an autonomous car for the first time - it just works."
+  },
+  {
+   "title": "AI for Scientific Advancement",
+   "author": "Diana Hu",
+   "description": "A lot of the software tools used for scientific applications in chemistry, biology, materials science, or operations research haven't changed much in decades. These rely on standard methods along PhDs to solve complex problems in drug discovery, chemical process optimization, metals & mining, or power grid optimization. \n\nIn particular, test-time compute is unlocking new types of startups that can solve these scientific problems. \n\nWe'd love to see more startups get created that use AI to transform how physical things are made faster and more efficiently."
+  },
+  {
+   "title": "AI Personal Assistant",
+   "author": "Tom Blomfield",
+   "description": "Despite decades of productivity apps, emails still pile up, calendars get full, and tasks remain undone. Even the best organizational tools only help us keep track of what needs to get done—they don't actually do it. With recent advances in LLMs, we now have the potential to go from \"to-do\" lists to \"done\" lists\"\n\nI'd love to work with startups building the next generation of AI personal assistant: an LLM-powered system that deeply understands your work, routines, communication history, and personal preferences. Imagine an AI that has perfect memory of your personal correspondence, projects, and scheduling preferences— and can take action on your behalf.\n\nThink of an assistant that knows how you typically respond to certain kinds of emails and can draft those responses for you—or even send them with your approval. It understands which meetings you usually accept and which you decline, and that can auto-schedule your week in a way that optimises your productivity and minimises travel. It keeps track of tasks you've completed in the past and how you approach new ones, so it can handle recurring processes without your constant input.\n\nThis is more than just filtering messages or auto-filling your calendar. I want to see a system that truly does the tasks a human personal assistant or chief of staff might otherwise do, allowing you to focus on the work that matters most."
+  },
+  {
+   "title": "Healthcare AI",
+   "author": "Gustaf Alströmer",
+   "description": "The US healthcare system is over 17% of GDP or over 4 trillion dollars. There are estimates that one-third of that, or over 1 trillion, is just spent on administrative tasks. We have one of the best healthcare systems in the world, but sadly, a lot of this spending is just unnecessary administration that exists because different health systems are not interoperable, don't have APIs, or simply the only way of doing a workflow or task if a human manually extracts data from one system to another. \n\nIn the last two years, there is an entire set of new startups building infrastructure to extract data from PDF or other systems, organize it, and allow it to be easily entered with an agent into a different system. Many of the tasks that led to high administrative healthcare costs are now fully possible to automate because the arrival of great LLMs happened in just the last 12 months of the companies. You can help make the US healthcare system be more efficient by solving these issues"
+  },
+  {
+   "title": "AI Personal Tutor for Everyone",
+   "author": "Harj Taggar",
+   "description": "The idea of using computers to help people learn things has been a dream of computer nerds going back to the 1940's with Vannevar Bush's Memex idea, JCR Licklider's \"Man-Computer Symbiosis\" paper in the 60's, and Alan Kay's Dynabook proposal in the 70's.\n\nThe holy grail has been to build a personalized learning experience for everyone but in practice, that's been hard to build. Most online education products deliver the same content to everyone who signs up for a course.\n\nAnd today, with AI, we think it's finally possible to build a truly personal tutor for everyone. The latest reasoning capabilities let them break down complex topics step by step, in a way that should help explain even the most complicated subjects in a straightforward way.\n\nWith the latest foundation models being multimodal, they can now present these concepts by generating animations, manipulating 3D objects, and explaining concepts with voice.\n\nWe've already seen the impact that one great teacher, like Grant Sanderson and his 3blue1brown YouTube videos, can have on making it easy to understand complex ideas using beautiful visualizations and animations. Now imagine having that same quality of explanation available for every topic, personalized to each learner's needs, with an interactive AI tutor. This could really change the world.\n\nIf you're working on using AI to create personalized learning tools for anything, we'd love to hear from you."
+  },
+  {
+   "title": "Software Tools To Make Robots",
+   "author": "Diana Hu",
+   "description": "Robotics hasn't had its ChatGPT moment yet, but we think it's almost here.\n\nEveryone has known that robots are the future - But that proved elusive because previous generations of robots were expensive, brittle, and only worked in controlled conditions.\n\nWith the rapid improvements in foundation models, it's finally possible to make robots that have human-level perception and judgment. That's been the missing piece.\n\nWhile consumer use cases feature heavily in science fiction, some of the overlooked and most immediately addressable applications for robots are B2B.\n\nSpecifically, we think promising areas are industrial use cases like Gecko Robotics, which builds inspection robots, and farming use cases like Bear Flag Robotics, which builds autonomous tractors and was acquired by John Deere.\n\nWe're interested in funding people building software tools to help others make robots. If you're bullish that robots are about to have their ChatGPT moment, we'd love to hear from you!"
+  },
+  {
+   "title": "The Future of Education",
+   "author": "Tom Blomfield",
+   "description": "Education is one of the world's largest and most important industries, yet it's also one of the most difficult to disrupt. About 100 million people are employed in education today, and about 1.5bn students are being educated every year. Traditional ways of teaching and learning have remained largely unchanged for decades, but things might be starting to shift.\n\nThe rise of AI—particularly large language models—promises to reshape how we teach, learn, and measure outcomes. These technologies have the potential to significantly improve educational access, personalize instruction, and free both teachers and learners from drudgery.\n\nWe're just starting to see new personalized study tools for students and grading platforms for teachers, but we're still very early in figuring out what AI can truly achieve here. One big challenge is figuring out the business model - while more than a billion people are engaged in education, budgets are notoriously tight, and purchasing cycles are horrendously slow.\n\nIf you fast-forward 10 or 20 years, it's impossible to believe that education is still going to be done in the same way it is today."
+  },
+  {
+   "title": "AI Residential Security",
+   "author": "Tyler Bosmeny",
+   "description": "Consumers spend $20B year on home security. And the biggest players are legacy companies whose features haven't changed in decades.\n\nMeanwhile, AI is taking the world of commercial security by storm. Companies like Verkada, Lumana are showing just how powerful AI can be. In commercial buildings, doors are unlocked with facial recognition. Video cameras detect suspicious behavior and send push notifications to building managers. Virtual AI guards will even come on loudspeakers and scare away criminals – to prevent crime before it happens.\n\nRing was acquired for $1 billion dollars for making video doorbells and magnetic door sensors.\nImagine how big the opportunity is for the company that uses AI to make people feel actually safe in their homes."
+  },
+  {
+   "title": "Internal Agent Builder",
+   "author": "Pete Koomen",
+   "description": "Soon, all companies will have one thing in common: every employee will build their own agents to automate the repetitive parts of their jobs. \n\nWe'd like to fund founders working on the infrastructure they'll use to do that: internal agent builders.\n\nAn internal agent builder is a tool that I can use to create an agent to handle mundane tasks I don't like doing. This infrastructure will need to access every other piece of software I use in my day-to-day. It'll need to manage permissions, and send sensitive data securely to the latest generation of LLMs. \n\nWe've built a version of this at YC and we're already using it to reduce the time we spend on everything from reviewing term sheets to repetitive accounting workflows. It frees us from the mundane so that we can spend more time on the tasks that we humans are uniquely good at. In my case that's working with founders!\n\nIf you're interested in building the foundational infrastructure for AI native companies, we'd love to hear from you."
+  },
+  {
+   "title": "AI Research Labs",
+   "author": "Jared Friedman",
+   "description": "At YC, we want to fund more AI Research Labs. Many people don't realize this, but YC was the first investor in OpenAI. In fact, OpenAI began life as YC Research, our in-house research lab. OpenAI pioneered the concept of independent AI Research labs, and we have had a front-row seat to the entire journey.\n\nOpenAI is doing incredible work, but there are many unsolved problems in AI and still plenty of opportunity for new research labs.\n\nSometimes people think that to do YC you have to be able to ship a product in 3 months. But actually, we're excited to back deep, open-ended research that may takes years to commercialize just like OpenAI did. We've seen that when top researchers follow their interests, it often leads somewhere interesting."
+  },
+  {
+   "title": "AI Voice Assistants for Email",
+   "author": "Tyler Bosmeny",
+   "description": "I want to meet teams who can help me process my inbox – with just my voice.\n\nYou see, every day I drive to work for 20 minutes, and every day I wish I could be using that time to triage emails, draft replies, delegate scheduling. What if we could all arrive at work each day already at Inbox Zero?\n\nIf you've used things like Vapi, Retell, or even ChatGPT Advanced Voice Mode, you know how good these voice agents are today. The use cases are far bigger than just driving. I know firsthand - It took me experiencing nerve damage in my arms to realize how much we still rely on keyboards for even the most basic tasks.\n\nAnd email just might be the perfect starting place to build the most useful all-purpose assistant. Anyone with access to my inbox instantly knows my friends, my plans, my writing style, and so much more.\n\nIf you're an ambitious team interested in working on this, I'm interested in working with you."
+  },
+  {
+   "title": "AI for Personal Finance",
+   "author": "Gustaf Alströmer",
+   "description": "Most humans are not rational about their finances. But just being alive comes with a set of decisions you need to make about your finances. How much should I save for the future, where should I invest my money to take the right risk, and how should I think about debt and taxes? How you answer these questions today will impact your freedom to do the things you want in the future.\n\nUntil today, the answers have generally been asking friends, googling, hiring a financial advisor or maybe even asking your bank.\n\nThese options aren't great. They are filled with bias and don't have the full picture of your financial situation and goals. And hiring a great financial advisor is very expensive.\n\nWith LLMs, there is a unique opportunity to build software that gives every person access to personalized finance, investment, and tax advice at near-zero cost. They would use API's to access your complete financial situation and give completely personal unbiased advice.\n\nIf this is something you are thinking about building, you should consider applying to the YC Summer batch."
+  }
+ ]
+}

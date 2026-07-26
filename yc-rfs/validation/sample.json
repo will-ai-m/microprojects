@@ -1,0 +1,1499 @@
+[
+ {
+  "company_id": 31193,
+  "name": "9 Mothers",
+  "batch": "Spring 2026",
+  "one_liner": "Counter Drone Systems. $1.6m sales. We delivered for the DoW.",
+  "description": "We have sold $1.6m of systems to the DoW. Multiple systems delivered to the DoW.\r\n\r\nOur first product - EDDA - is a counter drone system - small, low power, low cost fully autonomous-capable. It's designed to be used on vehicles, bases, or carried - to stop group 1 suicide drones. We have multiple contracts, sales, etc.\r\n\r\nWe have 3 more products with demand in various stages of development.\r\n\r\nMore details at https://9mothers.com",
+  "industry": "Industrials",
+  "tags": [],
+  "theme": "defense-tech",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 28937,
+  "name": "LifestyleRx",
+  "batch": "Summer 2023",
+  "one_liner": "Virtual Care for Type 2 Diabetes Reversal",
+  "description": "LifestyleRx delivers insurance-covered virtual care for Type 2 Diabetes reversal.  Our doctors guide patients through lifestyle changes to reverse the underlying process of diabetes.",
+  "industry": "Healthcare",
+  "tags": [
+   "Health Tech",
+   "Telehealth",
+   "Healthcare",
+   "Health & Wellness"
+  ],
+  "theme": "explainable-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29976,
+  "name": "Freestyle",
+  "batch": "Summer 2024",
+  "one_liner": "We run and deploy code your AI wrote",
+  "description": "Ben and Jacob met in Calculus class in 10th grade, and tried founding a startup in high school — it didn’t go anywhere.\r\n\r\nDuring high school, Ben lead the frontend team for the World Health Organization’s COVID-19 App Team.\r\n\r\nAfter high school, Jacob went to Apple and Ben went to college. When there was an opening on his team, Jacob had Ben apply, and Ben left UChicago to go work at Apple.\r\n\r\nThey spent about 2 years at Apple as Senior Engineers in the Conversational Engineering Department, before leaving to found Freestyle.\r\n\r\nFreestyle is directly inspired by what they saw as their failure",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "Open Source",
+   "Web Development",
+   "Cloud Computing"
+  ],
+  "theme": "consumer-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31019,
+  "name": "Ndea",
+  "batch": "Winter 2026",
+  "one_liner": "Building AGI that can innovate.",
+  "description": "Ndea is building frontier AI systems that blend intuitive pattern recognition and formal reasoning into a unified architecture.\r\n\r\n# AI for Scientific Advancement\r\n\r\nUnlike all life before us, humanity's ascent is a story of ingenuity, not just biological evolution. Our progress has been driven by the curiosity to acquire knowledge, the ability to pass it on, and an intrinsic drive to innovate. We build technology which gives us leverage beyond our biology.\r\n\r\nWe stand at the top of a knowledge and technology colossus that we collectively created over the past ten thousand generations. Scienti",
+  "industry": "Industrials",
+  "tags": [
+   "Artificial Intelligence",
+   "Deep Learning",
+   "Hard Tech",
+   "Remote Work",
+   "ML"
+  ],
+  "theme": "ai-research-labs",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 33314,
+  "name": "Avoca Systems",
+  "batch": "Summer 2026",
+  "one_liner": "The AI-powered operating system for radiology networks",
+  "description": "Avoca is the AI patient access platform built for radiology. It integrates with a network’s existing systems and operational knowledge to automate calls, online scheduling, faxes, e-referrals and patient communications, from referral through to results and follow-up. Unlike generic scheduling tools, Avoca understands the clinical, operational and resource constraints behind every radiology booking, helping providers capture more demand, reduce administrative work and fill more scan capacity.",
+  "industry": "Healthcare",
+  "tags": [
+   "Healthcare",
+   "Enterprise Software",
+   "Healthcare IT"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30542,
+  "name": "Vision Lab",
+  "batch": "Spring 2025",
+  "one_liner": "Industrial data layer for robotics training",
+  "description": "We capture and structure real factory workflows at scale by combining first-person industrial video with SOP-level process knowledge.\r\n\r\nThis enables robotics and AI labs to train on real production data, not just controlled lab environments.",
+  "industry": "Industrials",
+  "tags": [
+   "Robotics",
+   "Manufacturing",
+   "Data Engineering",
+   "AI"
+  ],
+  "theme": "ml-simulation",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30977,
+  "name": "Rovi Health",
+  "batch": "Fall 2025",
+  "one_liner": "AI healthcare concierge for employees",
+  "description": "We deliver high-quality, cost-effective healthcare to employees through text. Employers cut 10–20% of healthcare spend. Employees get concierge care that improves outcomes.\r\n\r\nOur AI agents analyze clinical data to identify care needs. We treat common conditions through our integrated virtual clinic. For more complex care, our agents find the best in-network providers using millions of price and quality data points, and handle end-to-end appointment booking. ",
+  "industry": "Healthcare",
+  "tags": [
+   "Consumer Health Services",
+   "Health Tech",
+   "Digital Health",
+   "Healthcare",
+   "Health Insurance"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29360,
+  "name": "Open",
+  "batch": "Winter 2024",
+  "one_liner": "Enterprise AI customer support",
+  "description": "Open is an AI-powered, all-in-one customer support and communication platform — used in production by:\r\n\r\nPrint.com, Mollie.com, Viva.com, More.com, Orderchamp.com, OneCarNow.com, and other major enterprise companies.\r\n\r\nWe specialize in solving and automating complex support cases across email, web, phone, SMS, and WhatsApp.\r\n\r\nWe’re a research-based company currently working on releasing Support-Bench, the world’s most comprehensive AI customer support benchmark.\r\n\r\nOur team consists of +3 programming language builders, a nationwide cybersecurity competition winner at age 16, and a dentist.",
+  "industry": "B2B",
+  "tags": [
+   "Generative AI",
+   "Customer Service",
+   "Customer Support",
+   "Conversational AI",
+   "AI Assistant"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 28221,
+  "name": "Serial",
+  "batch": "Winter 2023",
+  "one_liner": "Root cause manufacturing issues in seconds",
+  "description": "Serial is software to help manufacturers root cause problems in minutes not days and avoid millions in liabilities. Our solution integrates with data sources from any production line, enabling engineering & operations teams to ask questions about their manufacturing data and instantly get answers. Serial will become the single source of truth for manufacturing data.\r\n\r\nOur founding team has 10+ years of manufacturing and product design experience from Apple, Tesla, and more. We have suffered this problem firsthand and are building the tool to fix it.",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "Analytics",
+   "Manufacturing"
+  ],
+  "theme": "science-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31533,
+  "name": "Lattice Health",
+  "batch": "Spring 2026",
+  "one_liner": "Monitoring and governance for deployed medical imaging AI",
+  "description": "Lattice Health monitors deployed medical imaging AI so hospitals can tell whether each model is still working, tracking agreement with the radiologist's read, drift, and performance across patient groups. It observes rather than controls and produces the evidence teams need for safety, governance and compliance.",
+  "industry": "Healthcare",
+  "tags": [
+   "Healthcare",
+   "Healthcare IT"
+  ],
+  "theme": "govtech",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30440,
+  "name": "Sim",
+  "batch": "Spring 2025",
+  "one_liner": "Open source platform to build AI agent workflows",
+  "description": "Sim enables fast-growing technical teams to build and deploy AI agent workflows. \r\n\r\n70,000+ developers are already using Sim, integrating with 1000+ apps and LLMs to streamline workflows with AI agents.",
+  "industry": "B2B",
+  "tags": [
+   "AI"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27258,
+  "name": "AccessOwl",
+  "batch": "Summer 2022",
+  "one_liner": "Managing your Employees' Access to SaaS",
+  "description": "AccessOwl automates employee SaaS account provisioning and permissioning for any tool. IT teams from companies like Zeplin and Sary save 30 minutes on every request.\r\n\r\nAccess management used to be an enterprise problem. With work from home, exploding SaaS usage and the need for SOC2 certifications startups have the same problems as enterprises. \r\n\r\nMathias and Philip have built several startups and teams before and experienced the same problems around access management over and over again. Philip was the CEO and Co-Founder of blik, an award winning IoT solution that was used by Volkswagen and",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "B2B",
+   "Compliance",
+   "Security"
+  ],
+  "theme": "compliance",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 30322,
+  "name": "Spott",
+  "batch": "Winter 2025",
+  "one_liner": "AI-native ATS/CRM for recruiting firms",
+  "description": "Spott is the first AI-native ATS/CRM for recruiting & staffing firms. We built Spott because existing recruitment platforms require extensive manual work, are clunky to use, rely on fragmented add-ons, and are not designed for AI adoption.\r\n\r\nSpott combines everything recruiting firms need, from a full ATS & CRM to AI agents across the entire workflow, into one AI-native solution. It enables recruiters to focus on what matters most and close more placements.",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "B2B",
+   "HR Tech",
+   "Enterprise Software",
+   "AI"
+  ],
+  "theme": "video-generation",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30630,
+  "name": "Lark",
+  "batch": "Summer 2025",
+  "one_liner": "The E2E testing layer for AI-driven development",
+  "description": "Lark lets teams write end-to-end tests in plain English. Validate dashboards, APIs, SDKs, and full product flows without maintaining fragile test code. Run continuously on feature branches, in CI, or in production.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Developer Tools",
+   "B2B",
+   "DevOps",
+   "Automation"
+  ],
+  "theme": "software-engineering-ai",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 32588,
+  "name": "Almanac",
+  "batch": "Summer 2026",
+  "one_liner": "Self updating wiki for your coding agents",
+  "description": "Almanac is a self-updating wiki for your coding agents. It turns your team’s AI coding conversations into connected Markdown docs that live inside your repo. Your agents automatically search the wiki before making changes, so every agent working on the codebase starts with the same context, decisions, and implementation history. ",
+  "industry": "B2B",
+  "tags": [
+   "Generative AI"
+  ],
+  "theme": "ai-research-labs",
+  "claimed": "none"
+ },
+ {
+  "company_id": 26812,
+  "name": "Hype",
+  "batch": "Summer 2022",
+  "one_liner": "Trade memecoins ",
+  "description": "Trade memecoins, crypto and send crypto to your friends\r\nDownload Hype here: https://apps.apple.com/us/app/hype-trade-memes/id6477802830",
+  "industry": "Consumer",
+  "tags": [
+   "Fintech",
+   "Crypto / Web3",
+   "Consumer",
+   "Entertainment"
+  ],
+  "theme": "stablecoins-crypto",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29452,
+  "name": "Fluently",
+  "batch": "Winter 2024",
+  "one_liner": "Speaking coach for non-native English professionals",
+  "description": "Imagine a human-like English tutor, but 20x cheaper and available 24/7 - that's Fluently!\r\n\r\nFluently made for people who already know the basics of English but want to feel truly confident in real conversations: whether that’s in an interview, a business meeting, or chatting with friends.\r\n\r\nMost English learning apps are built for beginners and don’t help you improve speaking skills.\r\n\r\nWith Fluently, you get:\r\n- Unlimited real-world speaking practice\r\n- Personalized learning plan\r\n- Free English level assessment and progress tracking\r\n- Real progress in English speaking skills\r\n\r\nWe’re non-",
+  "industry": "Consumer",
+  "tags": [
+   "Education",
+   "SaaS",
+   "Consumer",
+   "Productivity",
+   "AI"
+  ],
+  "theme": "consumer-ai",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 28879,
+  "name": "Menza",
+  "batch": "Winter 2026",
+  "one_liner": "The AI data analyst for consumer brands",
+  "description": "Menza is the AI data analyst for consumer brands. A brand like Hershey’s would connect all of their data sources and then we give them an AI analyst that works 24/7 looking for revenue opportunities, cost leaks, trends and anomalies.",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "robotics",
+  "claimed": "none"
+ },
+ {
+  "company_id": 32157,
+  "name": "Maingen",
+  "batch": "Summer 2026",
+  "one_liner": "RL environments for industrial operations",
+  "description": "Maingen builds RL environments for industrial operations ($5 trillion slice of the US economy) so frontier labs can train models that actually run factories.",
+  "industry": "Industrials",
+  "tags": [
+   "Artificial Intelligence",
+   "B2B",
+   "Energy",
+   "Big Data",
+   "AI"
+  ],
+  "theme": "ml-simulation",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 26658,
+  "name": "Magic",
+  "batch": "Summer 2022",
+  "one_liner": "Pay by Bank Platform",
+  "description": "Magic is the next-generation platform for payments, loyalty, and rewards.",
+  "industry": "Fintech",
+  "tags": [],
+  "theme": "fintech",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31549,
+  "name": "Enjamb Labs",
+  "batch": "Spring 2026",
+  "one_liner": "Where drug teams run their entire program, discovery to FDA approval",
+  "description": "Enjamb runs the entire drug program for biopharma teams, from discovery to FDA approval. Pharma runs on decades of closed legacy systems like Benchling, Veeva, Medidata, and SAS, with no AI layer and no MCP to connect agents to them. \r\n\r\nSo we built that connection layer in one platform. Our agents run on top of their existing systems and data, with no migration, and do the work across the whole program: clinical evidence, trial design, statistical programming, and regulatory submissions. \r\n\r\nIn just 3 weeks since launch, we're already being used by 500+ employees at top pharma companies, incl",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "SaaS",
+   "B2B",
+   "Biotech",
+   "Automation"
+  ],
+  "theme": "devtools-internal",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31486,
+  "name": "Ornadyne",
+  "batch": "Spring 2026",
+  "one_liner": "We're building robot birds for surveillance.",
+  "description": "Ornadyne builds flapping-wing drones for reconnaissance that look, fly, and sound like birds.\r\n\r\nToday’s drones are easy to detect acoustically, visually, and electronically. As counter-UAS systems improve, traditional quadcopters and fixed-wing UAS systems are becoming increasingly ineffective for close-range surveillance.  \r\n\r\nFlapping-wing aircraft have existed for years, but have lacked the performance, endurance, and control required for real-world deployment. We’re changing that by engineering a high-performance, stealth-optimized system built from first principles for efficiency, autono",
+  "industry": "Industrials",
+  "tags": [
+   "Hard Tech",
+   "Robotics",
+   "Drones",
+   "Aerospace",
+   "Defense"
+  ],
+  "theme": "secure-ai-appstore",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29252,
+  "name": "Maia",
+  "batch": "Winter 2024",
+  "one_liner": "AI relationship app that keeps couples together",
+  "description": "Maia helps couples connect more each day. Trained by relationship experts, Maia offers daily activities, personalized advice, proactive insights, quizzes and games through AI and relationship science.",
+  "industry": "Healthcare",
+  "tags": [],
+  "theme": "personal-assistants",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 28368,
+  "name": "Second",
+  "batch": "Winter 2023",
+  "one_liner": "AI-Native Enterprise Codebase Maintenance",
+  "description": "AI-native enterprise codebase maintenance, including automated migrations and codebase intelligence for engineering teams who need to get stuff done.",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "Enterprise",
+   "AI"
+  ],
+  "theme": "software-engineering-ai",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31186,
+  "name": "End Close",
+  "batch": "Winter 2026",
+  "one_liner": "AI powered reconciliation for high-volume payments companies",
+  "description": "End Close builds automatic reconciliation for payments companies like fintechs, marketplaces, banks and payroll companies. Reconciliation helps companies track every dollar and resolve every exception, ensuring they have no money loss, can report audit ready financials, and stay compliant.\r\n\r\nSean (CEO) spent the last 6 years building the reconciliation org at Modern Treasury (S18), processing a trillion dollars in payments across 40 banks with 99.995% automation. Fast growing companies like Modern Treasury are forced to build a solution in-house or buy a legacy solution. End Close provides a ",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "open-source",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30518,
+  "name": "Orchid",
+  "batch": "Spring 2025",
+  "one_liner": "A personal EA in your iMessage",
+  "description": "Orchid is an executive assistant that lives in iMessage. It texts you your day each morning, drafts your replies, and books your meetings. You approve, it handles the rest.\r\n\r\nIf you've ever wished for a world-class EA, come talk to us.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "AI Assistant"
+  ],
+  "theme": "robotics",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30090,
+  "name": "Origami",
+  "batch": "Fall 2024",
+  "one_liner": "Get your perfect customers with one prompt",
+  "description": "Find & connect with your perfect leads by prompting in Origami.\r\n\r\norigami.chat has 100+ data sources - use it to find more of your perfect customers, enrich a CSV, or launch a sequence to connect with decision makers.\r\n\r\nTry it out and start connecting with your perfect leads in minutes, start free → origami.chat\r\n\r\nUsed by sales teams at CBRE, Clipboard Health, Remote.com, and more.",
+  "industry": "B2B",
+  "tags": [
+   "Workflow Automation",
+   "Sales",
+   "Search"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27909,
+  "name": "Magicflow 𐂂",
+  "batch": "Winter 2023",
+  "one_liner": "The Gen AI evaluation and curation platform",
+  "description": "Prompt engineers, visual artists and AI data scientists are using Magicflow to run experiments at scale and perfect their pipelines\r\n\r\nOur product is ready to use: https://console.magicflow.ai try it out! we have some preloaded examples you can try.\r\n\r\n🤟 Talk to us about anything! We love meeting new people https://calendly.com/magicflowai/",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Developer Tools",
+   "Generative AI",
+   "AI"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 28829,
+  "name": "DataShare",
+  "batch": "Summer 2023",
+  "one_liner": "Embed charts, dashboards and exports in your app",
+  "description": "DataShare is a data-as-a-service platform that lets you embed charts, dashboards and exports directly into your product. For example, if you run an accounting startup, DataShare would enable you to embed a full profit and loss dashboard, with downloadable statements. DataShare is backed by an enterprise-grade data warehouse, and can be implemented in fewer than 20 lines of code. \r\n",
+  "industry": "B2B",
+  "tags": [
+   "Analytics",
+   "Data Engineering",
+   "Databases"
+  ],
+  "theme": "secure-ai-appstore",
+  "claimed": "none"
+ },
+ {
+  "company_id": 25560,
+  "name": "Stock Unlock",
+  "batch": "Winter 2022",
+  "one_liner": "Web-app | investment education and analysis tools for retail investors",
+  "description": "Stock Unlock is an investment education and analysis platform, built by retail investors, for retail investors. We make it easy for noobies to start their investment journey, and save time for the pros.\r\n\r\nWe are building THE place for investors to learn, grow, and invest confidently.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "SaaS",
+   "Finance",
+   "Investing"
+  ],
+  "theme": "open-source",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30064,
+  "name": "HYBRD",
+  "batch": "Fall 2024",
+  "one_liner": "coaching agents for athletes",
+  "description": "The mission of HYBRD is to take world-class coaching and make it universally available. \r\n\r\nHealth data has never been more abundant. GPS watches track pace and heart rate, wearables monitor sleep and recovery, and voice logging has made it easier than ever to capture weightlifting and HYROX. \r\n\r\nAnd yet most athletes are still following static PDF plans they found online, or \"adaptive\" apps that fall apart the moment cross-training enters the picture.\r\n\r\nExisting tools feel disappointing because they don’t actually know your goals and constraints, so they can’t do anything meaningful with the",
+  "industry": "Consumer",
+  "tags": [
+   "Health Tech",
+   "Consumer",
+   "Fitness",
+   "Digital Health",
+   "AI"
+  ],
+  "theme": "personal-assistants",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29747,
+  "name": "deepsilicon",
+  "batch": "Summer 2024",
+  "one_liner": "Software and hardware to run neural networks faster and cheaper",
+  "description": "",
+  "industry": "Industrials",
+  "tags": [
+   "Edge Computing Semiconductors",
+   "Hard Tech",
+   "AI"
+  ],
+  "theme": "compute-infrastructure",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29990,
+  "name": "DreamRP",
+  "batch": "Summer 2024",
+  "one_liner": "Tech and platforms for human creators and the entertainment industry",
+  "description": "AI entertainment feels like slop because companies bet on technology instead of people.\r\n\r\nCompanies chase tech because it usually lets them win. But what fans love has never been about the tech.\r\n\r\nA fan doesn’t fill their apartment with posters because of the lens a movie was shot on. They do it because of the mind behind the camera.\r\n\r\nAI is a power-up. In the wrong hands, more and more of what you see becomes sludge. In the right ones, the good stuff wins.\r\n\r\nDreamRP builds for creatives, from indie artists to global stars, because they’ve always been the real reason fans love what they lo",
+  "industry": "Consumer",
+  "tags": [
+   "Artificial Intelligence",
+   "Generative AI",
+   "Consumer",
+   "Entertainment",
+   "AI"
+  ],
+  "theme": "design-founders",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 26749,
+  "name": "Ballerine",
+  "batch": "Summer 2022",
+  "one_liner": "Agentic Intelligence Layer for Merchant Risk Decisions",
+  "description": "Ballerine is an AI-native risk intelligence platform built for financial institutions, acquirers, and payment providers that need to underwrite and monitor merchants at scale in real time.\r\n\r\nInstead of relying on fragmented point solutions, Ballerine unifies data from business registries, transaction patterns, sanctions lists, and web intelligence into one composable infrastructure. \r\n\r\nIts AI Agents continuously analyze these signals to deliver dynamic and explainable risk assessments across the merchant lifecycle.\r\nWith a modular architecture, teams can automate underwriting, detect emergin",
+  "industry": "Fintech",
+  "tags": [
+   "Compliance",
+   "Fraud Detection"
+  ],
+  "theme": "design-founders",
+  "claimed": "none"
+ },
+ {
+  "company_id": 28160,
+  "name": "Finni Health",
+  "batch": "Winter 2023",
+  "one_liner": "Empowering Autism Care Providers to Go Independent",
+  "description": "Our platform is simple: we provide everything providers need to go independent, from scheduling and billing to marketing and client support.",
+  "industry": "Healthcare",
+  "tags": [],
+  "theme": "healthcare-services",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 30676,
+  "name": "Stellon Labs",
+  "batch": "Summer 2025",
+  "one_liner": "Building tiny frontier AI models that run on edge devices",
+  "description": "Stellon Labs is an AI research lab that is building tiny frontier AI models that can run on edge devices like smartphones, wearables and embedded systems. Our first open source model, KittenTTS, is a super-tiny text-to-speech model, that got 8K Github stars and 45K model downloads within 2 weeks of launching. ",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Edge Computing Semiconductors"
+  ],
+  "theme": "cloud-small-software",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29376,
+  "name": "Carma",
+  "batch": "Winter 2024",
+  "one_liner": "The AI Operating System For Modern Fleets.",
+  "description": "Carma is building an AI-native platform that transforms fleet operations from tedious, manual work into effortless, automated workflows.\r\n\r\nWe’re the fastest-growing company in fleet management software. Carma already powers some of the largest fleets in the U.S., including Fortune 500 clients, saving operations teams thousands of hours by eliminating busywork and keeping vehicles on the road.\r\n\r\nBacked by Soma Capital, Y Combinator, founders of Superhuman, and Tier-1 investors, we raised our $5.5M seed and are sprinting toward a Series A in 2026.\r\n\r\nWe’re hiring the top 0.1% of engineers who ",
+  "industry": "B2B",
+  "tags": [
+   "B2B",
+   "Workflow Automation",
+   "Compliance",
+   "AI",
+   "Automotive"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30981,
+  "name": "Freeport Markets",
+  "batch": "Fall 2025",
+  "one_liner": "Trade Anything",
+  "description": "Freeport is a trading platform for pre-IPO shares, equities, crypto, and perpetual futures. Our AI analysts turn trusted social and financial media into a real-time feed of market-moving news and actionable trade ideas.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Crypto / Web3",
+   "Investing",
+   "Consumer Finance",
+   "AI"
+  ],
+  "theme": "physical-world-data",
+  "claimed": "none"
+ },
+ {
+  "company_id": 32122,
+  "name": "Donkey",
+  "batch": "Summer 2026",
+  "one_liner": "The AI-native trading company: China factory-direct for US importers",
+  "description": "Donkey is the modern trading company. We buy straight from Chinese factories and sell delivered to US importers: one USD price to their dock, duty paid, our own inspectors on the factory floor before the factory gets paid.\r\n\r\nMost importers buy through trading companies that mark up every container 15 to 30 percent and never reveal the factory. US customs records are public. Almost nobody reads them, so we arrive already knowing their supply lane. They send one photo of a part they reorder. We name the factory that actually makes it and beat their landed cost in 72 hours, or they keep their su",
+  "industry": "B2B",
+  "tags": [
+   "Logistics",
+   "Manufacturing",
+   "Supply Chain",
+   "AI"
+  ],
+  "theme": "ml-simulation",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31201,
+  "name": "Robby",
+  "batch": "Winter 2026",
+  "one_liner": "AI agents that grow revenue for home services businesses",
+  "description": "Robby is an AI growth engine for home services businesses that uncovers revenue opportunities and collects additional data from every technician visit. Our AI combines customer and third party data to generate dozens of new leads every day, and then arms the technicians with talking points to increase close rates, giving GMs a single command center to manage and drive revenue. We have several paying customers that are each uncovering 6 figures in additional revenue opportunities every week. On our first day of launch, we helped close $40k in new business within an hour.\r\n\r\nOur team has spent t",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 28809,
+  "name": "Readily",
+  "batch": "Summer 2023",
+  "one_liner": "AI Compliance Platform for Healthcare Organizations",
+  "description": "Readily uses AI to free 20 million healthcare professionals from manual compliance work so they can focus on patient care. We've helped $B healthcare organizations cut regulatory analysis, policy drafting, and audit work by up to 90%, reducing consulting spend and compliance risk.",
+  "industry": "Healthcare",
+  "tags": [
+   "B2B",
+   "Compliance",
+   "Healthcare",
+   "Regtech",
+   "AI"
+  ],
+  "theme": "ai-research-labs",
+  "claimed": "none"
+ },
+ {
+  "company_id": 25723,
+  "name": "Aklimate",
+  "batch": "Winter 2022",
+  "one_liner": "Software for enterprises to track and reduce supply chain emissions",
+  "description": "With Aklimate, enterprises provide their suppliers with carbon management tools for free, in exchange for their emissions data. You can imagine it as the company paying for a Watershed-lite for each of their suppliers.",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "B2B",
+   "Climate"
+  ],
+  "theme": "enterprise-software",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 27045,
+  "name": "Argovox",
+  "batch": "Summer 2022",
+  "one_liner": "Voice AI agents for patient billing and collections",
+  "description": "We help healthcare providers increase profitability and cashflow by automating their patient billing and collections processes.\r\n\r\nToday, healthcare providers in the US are leaving up to 20% of their profit margins on the table due to subpar patient billing and collections processes. Billing patients and collecting their payments is a complex process that requires specialized skills and a lot of effort. Traditionally, healthcare providers have done this manually, with limited automation around one-way reminders. This leads to limited engagement with payers and subpar collection results.\r\n\r\nArg",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Healthcare",
+   "LegalTech",
+   "Call Center",
+   "AI Assistant"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27092,
+  "name": "Lamin",
+  "batch": "Summer 2022",
+  "one_liner": "Open data lakehouse for biology",
+  "description": "Query, trace, and validate datasets and models at scale. Automate context for agents and humans.\r\n\r\nOne API: lakehouse, lineage, feature store, ontologies, bio-registries & formats.",
+  "industry": "Healthcare",
+  "tags": [
+   "Developer Tools",
+   "Machine Learning",
+   "Biotech",
+   "Open Source",
+   "Data Engineering"
+  ],
+  "theme": "ai-native-services",
+  "claimed": "none"
+ },
+ {
+  "company_id": 25678,
+  "name": "Botin",
+  "batch": "Winter 2022",
+  "one_liner": "Investment super app for Latin America",
+  "description": "Botin a mobile app where people in Latin America can invest in US Stocks, Crypto and more. \r\n\r\nWe are building a one stop shop product for consumers to create wealth in Latin America by giving them the investment tools of the 1%.  \r\n",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Crypto / Web3"
+  ],
+  "theme": "fintech",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29697,
+  "name": "Stormy",
+  "batch": "Summer 2025",
+  "one_liner": "Al platform that makes social marketing as easy as running a Google…",
+  "description": "Stormy: AI-Driven Influencer Marketing\r\n\r\nStreamline influencer outreach and let your product shine.\r\n\t•\tDiscover: AI pinpoints ideal influencers with 99.8% accuracy.\r\n\t•\tOutreach: Auto-send personalized emails and follow-ups.\r\n\t•\tClose: AI negotiates and finalizes deals seamlessly.\r\n\r\nFocus on building—Stormy handles distribution on autopilot.\r\n\r\nFounders from YC have discount! Please DM me on twitter: @karmedge or email",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "B2B",
+   "Marketing",
+   "AI"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 25361,
+  "name": "Fleetzero",
+  "batch": "Winter 2022",
+  "one_liner": "Making all ships robots. ",
+  "description": "Fleetzero builds electric and hybrid propulsion systems for large ships and is developing unmanned cargo vessels. ",
+  "industry": "Industrials",
+  "tags": [
+   "Climate"
+  ],
+  "theme": "defense-tech",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29443,
+  "name": "Adapted",
+  "batch": "Winter 2024",
+  "one_liner": "AI physical therapy for athletes",
+  "description": "Adapted is an AI physical therapist for athletes. Tell it your injury history, your sport, and your goals - it builds a personalized program to rehab and prevent injuries, bulletproof your body, and improve mobility and flexibility. No generic exercises. Just training and prehab that actually adapts to you.\r\n\r\nAvailable now on the iOS App Store.",
+  "industry": "Consumer",
+  "tags": [
+   "Artificial Intelligence",
+   "Fitness",
+   "Digital Health",
+   "Health & Wellness"
+  ],
+  "theme": "govtech",
+  "claimed": "none"
+ },
+ {
+  "company_id": 26740,
+  "name": "BlueHill Payments",
+  "batch": "Summer 2022",
+  "one_liner": "Client management, communication, and projects in one platform.",
+  "description": "BlueHill replaces the patchwork of tools you use to manage clients. Instead of bouncing between a project management app, a shared inbox, a portal solution, and a spreadsheet to track onboarding — BlueHill brings it all into one platform. Your team gets built-in email, structured onboarding workflows, project management, and a complete history of every client interaction. No more lost context, no more switching between tabs, and no more wondering who said what to which client.\r\n\r\nYour clients get a branded portal experience where they can communicate with your team, track progress, and access ",
+  "industry": "B2B",
+  "tags": [
+   "Payments",
+   "Productivity",
+   "Operations"
+  ],
+  "theme": "enterprise-software",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30412,
+  "name": "Bloom",
+  "batch": "Spring 2025",
+  "one_liner": "Build and share mobile apps in seconds",
+  "description": "Bloom lets you vibe code cross-platform apps and test them on your phone natively in seconds. Unlike other vibe code tools, Bloom deploys a backend for you, so you can build functional MVPs and personal apps, not just toys.\r\n\r\nhttps://youtu.be/oeJCk_nwDZg",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "ai-research-labs",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30500,
+  "name": "Besimple AI",
+  "batch": "Spring 2025",
+  "one_liner": "Voice data for AI",
+  "description": "We are building the data layer for AI, starting with audio.  \r\n\r\nWe start with data collection, curating our own proprietary set of diverse conversational data covering a wide range of languages, dialects and accents.  We then leverage human expert audio annotators and our own annotation platform to process audio data for Automatic Speech Recognition.  \r\n\r\nWith human level transcription and diarization, our data help push the audio model frontier.  Today we have over millions of hours of conversational data, and growing. \r\n\r\nIf you need audio data for training or evaluating your voice models o",
+  "industry": "B2B",
+  "tags": [
+   "AIOps",
+   "Artificial Intelligence",
+   "Data Labeling"
+  ],
+  "theme": "small-models-training",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27042,
+  "name": "Artemis Search",
+  "batch": "Summer 2022",
+  "one_liner": "A search technology that actually finds what you’re looking for.",
+  "description": "Artemis Search is a vector database search with a twist. We use special-purpose deep-learning models instead of using textual / semantic similarity to evaluate how good a search result is.\r\n\r\nThis enables us to actually reason how well search results match the intent of the search query, eliminating the problems that come from evaluating search results on how much they look like the search query.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Machine Learning",
+   "SaaS",
+   "B2B",
+   "Search"
+  ],
+  "theme": "stablecoins-crypto",
+  "claimed": "none"
+ },
+ {
+  "company_id": 28415,
+  "name": "moonrepo",
+  "batch": "Winter 2023",
+  "one_liner": "Open source build tool for monorepos and large codebases",
+  "description": "moonrepo is a developer tool that reduces build/test/deploy times, and maintenance costs for companies. We’ve achieved this through moon, our open source build system and repository management tool. moon can be paired with moonbase, our paid service that provides cloud caching, CI insights, code ownership, and health score related metrics. The company is founded by Miles Johnson and James Pozdena who have a combined 25+ years in the software development industry with tenure at Airbnb and Coinbase.",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "SaaS",
+   "Productivity",
+   "Open Source",
+   "Enterprise"
+  ],
+  "theme": "open-source",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29710,
+  "name": "TaxGPT",
+  "batch": "Summer 2024",
+  "one_liner": "AI tax assistant for professionals and businesses",
+  "description": "TaxGPT AI co-pilot for accountants and tax professionals increases tax firm's productivity and profitability by 10x by automating tax research, client communication, onboarding flows and secure document collection.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Fintech",
+   "B2B"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27983,
+  "name": "Retape",
+  "batch": "Winter 2023",
+  "one_liner": "AI workers for debt settlement",
+  "description": "Automating call center operations at debt settlement companies, with AI that plugs into CRM, identifies debts to settle, and negotiates with creditors over the phone.",
+  "industry": "B2B",
+  "tags": [
+   "Generative AI",
+   "SaaS",
+   "Finance",
+   "B2B"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 25274,
+  "name": "Remedial Health",
+  "batch": "Winter 2022",
+  "one_liner": "B2B E-commerce & Fintech platform for Pharmacies & Hospitals in Africa",
+  "description": "Remedial Health sells medicine wholesale to the 1 million pharmacies and hospitals in Africa. Today in Africa, pharmacies shop in open-air medicine markets where they pay higher prices for counterfeits medicines. We offer a managed marketplace with all the stock they'll need, deliver within 24 hours and offer credit to help them grow.",
+  "industry": "Healthcare",
+  "tags": [
+   "Fintech",
+   "B2B",
+   "E-commerce"
+  ],
+  "theme": "fintech",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 25341,
+  "name": "Wagetap",
+  "batch": "Winter 2022",
+  "one_liner": "Advance next payday, and BNPL for bills",
+  "description": "Wagetap is a mobile app that allows users to get an advance of up to $2,000 on their next payday and pay their bills in more manageable installments. Wagetap's vision is to offer a suite of financial products to become the financial partner for everyday people.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Consumer"
+  ],
+  "theme": "fintech",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 25617,
+  "name": "Speechly",
+  "batch": "Winter 2022",
+  "one_liner": "Natural Language Understanding API for Speech that runs on device",
+  "description": "Speechly makes it cost efficient to understand human conversations, in real-time. We do this by enabling high-accuracy spoken language understanding processed right on the end user’s device.\r\n\r\nHundreds of millions of hours of audio data are generated every single day online. Speechly is the first solution that can affordably turn this audio into actionable insights.\r\n",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Developer Tools",
+   "Speech Recognition"
+  ],
+  "theme": "small-models-training",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29683,
+  "name": "CodeViz",
+  "batch": "Summer 2024",
+  "one_liner": "One living model of your software architecture",
+  "description": "CodeViz creates interactive codebase maps to help engineers quickly understand and navigate code. \r\n \r\nAdopted by engineers at Amazon, Microsoft, and Roblox, CodeViz was founded by two ex-Tesla engineers to tackle the 75% of development time lost to reading code. Download today at https://codeviz.ai",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Developer Tools",
+   "Productivity"
+  ],
+  "theme": "physical-world-ops",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29154,
+  "name": "Catamaran",
+  "batch": "Summer 2023",
+  "one_liner": "The AI-powered risk decision platform ",
+  "description": "Catamaran uses AI to help people make clearer, faster decisions about risk. Our platform brings all internal and external risk data into one easy-to-understand workspace. By automating data gathering, checking, and scenario testing, we help insurers, reinsurers, brokers, and investors quickly understand and manage their risks. Catamaran also provides a regulated marketplace to easily buy, sell, and manage insurance coverage.",
+  "industry": "Fintech",
+  "tags": [
+   "Machine Learning",
+   "Finance",
+   "Analytics",
+   "Insurance",
+   "Investing"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 30028,
+  "name": "Gait",
+  "batch": "Fall 2024",
+  "one_liner": "Building Dev Infra for AI Software Engineers",
+  "description": "Ever been confused by a block of AI-generated code? Gait is a Cursor and VS Code extension that will let you view the prompt that generated code. Continue off of your coworker's conversations, view analytics on your AI codegen use, and more!",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "AI"
+  ],
+  "theme": "discovery-engines",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31332,
+  "name": "Stage",
+  "batch": "Spring 2026",
+  "one_liner": "Code review platform for humans and agents",
+  "description": "Stage is a new code review platform designed to help engineers better understand and review AI generated code.\r\n\r\nEngineering teams are shipping faster than ever with agents, but now they’re drowning in an endless backlog of PRs to review. Stage reorganizes the code review process around how engineers naturally think, enabling you to review (and merge!) PRs 5x faster. \r\n\r\nUsed by top engineers at Legora, n8n, Branch, and more. ",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "software-engineering-ai",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 24078,
+  "name": "Instalab",
+  "batch": "Winter 2022",
+  "one_liner": "Proactive Testing and Treatments",
+  "description": "Instalab gives you direct access to all the preventative tests you need to do this year to stay on top of your health. Trusted by tens of thousands of top-performing founders, executives, and professional athletes. ",
+  "industry": "Healthcare",
+  "tags": [
+   "Consumer Health Services",
+   "Health Tech",
+   "Telemedicine",
+   "Health & Wellness",
+   "AI"
+  ],
+  "theme": "healthcare-ai",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 31186,
+  "name": "End Close",
+  "batch": "Winter 2026",
+  "one_liner": "AI powered reconciliation for high-volume payments companies",
+  "description": "End Close builds automatic reconciliation for payments companies like fintechs, marketplaces, banks and payroll companies. Reconciliation helps companies track every dollar and resolve every exception, ensuring they have no money loss, can report audit ready financials, and stay compliant.\r\n\r\nSean (CEO) spent the last 6 years building the reconciliation org at Modern Treasury (S18), processing a trillion dollars in payments across 40 banks with 99.995% automation. Fast growing companies like Modern Treasury are forced to build a solution in-house or buy a legacy solution. End Close provides a ",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30108,
+  "name": "Struct",
+  "batch": "Fall 2024",
+  "one_liner": "Agents that keep prod running",
+  "description": "Struct autonomously investigates alerts and incidents using telemetry, code, and databases. It centralizes tribal knowledge for oncall teams by learning the system and generating oncall runbooks.\r\n\r\nOnboarding takes 5 minutes.\r\n",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Developer Tools",
+   "B2B",
+   "DevOps",
+   "Enterprise Software"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 25417,
+  "name": "Koala",
+  "batch": "Winter 2022",
+  "one_liner": "Minecraft for Teachers",
+  "description": "PROBLEM 😩\r\n\r\nZoom is great for adults, not ideal to engage an 8 year old online.\r\n\r\nSOLUTION 🔥\r\n\r\nKoala Go, the award-winning interactive platform for online teaching businesses.\r\n\r\nLearn more at https://teachwithkoala.com/",
+  "industry": "Education",
+  "tags": [
+   "Education",
+   "Marketplace",
+   "Gaming",
+   "Metaverse"
+  ],
+  "theme": "education-tutoring",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29705,
+  "name": "Lighthouz AI",
+  "batch": "Summer 2024",
+  "one_liner": "Freight bill audits, AP, AR automation for freight brokers with…",
+  "description": "Lighthouz is a backoffice AI solution for freight brokers, to automate AP, AR, and Collections. \r\n\r\nLeading freight brokers are using Lighthouz AI to automate FTL (full truckload) and LTL (less than truckload) freight bill auditing, automatically filing disputes, and invoicing customers. \r\n\r\nWith Lighthouz, 70%-85% emails do not need to be touched by humans. \r\n\r\nHence, brokers using Lighthouz are invoicing customers 36% faster, getting paid 5 days sooner, and reducing back office costs by 40%.\r\n\r\nLighthouz brings 25+ years of supply chain, logistics, and AI experience to brokers, with a AI Pro",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "SaaS",
+   "Workflow Automation",
+   "Logistics",
+   "Supply Chain"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31200,
+  "name": "Ressl AI",
+  "batch": "Winter 2026",
+  "one_liner": "Train, eval and build autonomous agents",
+  "description": "Ressl AI helps teams bridge the gap from prototype to production by providing the platform needed to train, benchmark, and deploy autonomous agents that actually work in real-world business systems.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "B2B",
+   "Operations"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30552,
+  "name": "sieve",
+  "batch": "Spring 2025",
+  "one_liner": "AI + human review to solve data cleaning - accessible via API or Excel",
+  "description": "sieve solves data cleaning for hedge funds and investment firms by letting them get clean data in four lines of code. Currently, their data pipelines have conditions that raise for human review, which literally send an email to engineers with data that needs to be reviewed. We provide an API that integrates directly into their existing pipeline - instead of raising for human review, they can send all the same information to our API and get clean, high-quality data back.\r\n\r\nBy using our AI agents built specifically for financial data collection, along with expert-in-the-loop review, we provide ",
+  "industry": "B2B",
+  "tags": [
+   "Investing",
+   "Data Engineering",
+   "APIs"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29353,
+  "name": "Resonance",
+  "batch": "Winter 2024",
+  "one_liner": "Self-improving content bank for marketing",
+  "description": "Resonance hyper-personalizes MarTech campaign content and automatically refreshes and stores high performing content for re-use.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Reinforcement Learning",
+   "SaaS",
+   "Subscriptions",
+   "Marketing"
+  ],
+  "theme": "robotics",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29415,
+  "name": "Givefront",
+  "batch": "Winter 2024",
+  "one_liner": "Nonprofit Financial Management",
+  "description": "The world’s most important organizations deserve the world’s best financial infrastructure. We’re here to make sure they do.\r\n\r\nAt Givefront, we've built a modern financial management platform designed specifically for nonprofits. With real-time budgeting, built-in compliance, and easy integrations, we replace the spreadsheets and guesswork with smart, automated systems.\r\n\r\nBy transforming financial operations from reactive to real-time, Givefront empowers nonprofits to control every dollar, protect every grant, and move their missions forward faster — with greater efficiency, transparency, an",
+  "industry": "Fintech",
+  "tags": [],
+  "theme": "manufacturing-reshoring",
+  "claimed": "none"
+ },
+ {
+  "company_id": 27224,
+  "name": "InVision Medical Technology",
+  "batch": "Summer 2022",
+  "one_liner": "AI Diagnosis of  Heart Disease",
+  "description": "At InVision, we use AI to help streamline the interpretation of ultrasounds and identify diseases that may have been missed by human readers. Our models have been tightly integrated into the clinical workflow to allow easy usage by clinicians. Our work has previously been peer-reviewed and published in several top medical venues, including Nature (2020), Nature Medicine (2021), Lancet Digital Health (2021), JAMA Cardiology (2022). Results from our blinded and randomized clinical trial on evaluating cardiac function have also been recently presented as a Late Breaking Clinical Trial at the Euro",
+  "industry": "Healthcare",
+  "tags": [
+   "Artificial Intelligence",
+   "Health Tech",
+   "Diagnostics"
+  ],
+  "theme": "healthcare-ai",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 25947,
+  "name": "Fogbender",
+  "batch": "Winter 2022",
+  "one_liner": "Customer support tool purpose-built for companies that sell APIs",
+  "description": "Fogbender helps B2B companies support customer teams: think Intercom meets Slack's shared channels.\r\n\r\nToday, all customer software is explicitly or implicitly designed for helping individuals, not teams. This is forcing B2B companies - who sell products to teams, not individuals - to augment their default customer support platform (Zendesk, Intercom, Front, etc) with a second, \"unofficial\", system: Slack's shared channels.\r\n\r\nThis causes a number of operational and logistical difficulties for both vendors and their customers, resulting in added costs, inefficiencies, and lost opportunities.\r\n",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "enterprise-software",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29338,
+  "name": "Consul",
+  "batch": "Winter 2024",
+  "one_liner": "The Stablecoin Payouts Platform",
+  "description": "Consul is building the future of payouts for the online economy. We make it easy for marketplaces, agencies, and startups to make payouts using stablecoins.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Payments"
+  ],
+  "theme": "stablecoins-crypto",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29797,
+  "name": "Haystack",
+  "batch": "Summer 2024",
+  "one_liner": "The agent-native control layer for code changes",
+  "description": "Haystack helps engineering teams manage the growing volume of AI-generated pull requests.\r\n\r\nCoding agents make it much easier to produce code, but they also create a new problem: teams now have more changes to review, many of them larger, more frequent, and harder to trust at a glance.\r\n\r\nHaystack sits on top of GitHub and acts as the control layer for AI-generated code changes. For every pull request, it looks at the codebase, the diff, the agent trace, the author’s intent, and any verification evidence like tests, logs, commands, or screenshots.\r\n\r\nThen Haystack decides what should happen n",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "B2B",
+   "Productivity",
+   "AI"
+  ],
+  "theme": "science-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 26669,
+  "name": "Mercator",
+  "batch": "Summer 2022",
+  "one_liner": "AI-assisted data analytics",
+  "description": "Mercator is your AI-assisted data analytics platform for writing faster, cheaper, and smarter SQL. Co-founders Andrew and Dayton met on the Instacart data science team. Dayton earned a physics PhD at UC Berkeley before entering DS. Andrew spent six years as a SWE at Uber, where he developed pydeck, a geospatial data visualization library with over 12M downloads. Mercator is backed by Y Combinator, Tribe Capital, Soma Capital, Valor Equity Partners, Amplify Partners, and Rebel Fund.",
+  "industry": "B2B",
+  "tags": [
+   "Generative AI",
+   "SaaS",
+   "B2B"
+  ],
+  "theme": "space",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31083,
+  "name": "Kita",
+  "batch": "Winter 2026",
+  "one_liner": "Automate credit assessment for lenders in emerging markets",
+  "description": "In emerging markets, open finance is still nascent. Most of the population is traditionally unbanked, banking APIs don’t exist, and a borrower’s financial history lives in documents: e-wallet records, bank statements, utility bills, and more. Because this data is unstructured, credit and risk teams are forced into manual review. This slows decisioning, increases costs, and caps lending volume. \r\n\r\nKita is the AI platform for global lending operations. We help lenders in emerging markets automate application completion, document verification, and underwriting from messy financial documents — us",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Computer Vision",
+   "Lending",
+   "Emerging Markets"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29791,
+  "name": "Cartage",
+  "batch": "Summer 2024",
+  "one_liner": "Autonomous freight coordination",
+  "description": "Cartage is the future of freight coordination. Transparent, tech-driven and eliminating the need for human coordinators.",
+  "industry": "B2B",
+  "tags": [
+   "Machine Learning",
+   "Workflow Automation",
+   "Logistics",
+   "Supply Chain",
+   "AI"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31526,
+  "name": "Uno Wallet",
+  "batch": "Spring 2026",
+  "one_liner": "The AI mobile wallet that replaces Apple Pay",
+  "description": "Uno is the first third-party wallet granted access by Apple to become the default contactless wallet on iPhone. Uno is building a new payment rail, starting with a smarter wallet experience.\r\n\r\nThe wedge is credit card points optimization. \r\n\r\nFounded by Saket Joshi (www.linkedin.com/in/saket-dattatray-joshi/) and \r\nMordi Shadpour (www.linkedin.com/in/mordi-shadpour/)",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Payments",
+   "Consumer",
+   "Infrastructure",
+   "AI"
+  ],
+  "theme": "large-spatial-models",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29299,
+  "name": "Ecliptor",
+  "batch": "Winter 2024",
+  "one_liner": "AI and Embeddings. ",
+  "description": "",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "B2B",
+   "Sales"
+  ],
+  "theme": "residential-security",
+  "claimed": "none"
+ },
+ {
+  "company_id": 30449,
+  "name": "Attune",
+  "batch": "Spring 2025",
+  "one_liner": "Faster builds, zero effort.",
+  "description": "Attune makes blazingly fast build tools that require zero migration effort.\r\n\r\nAs AI enables developers to write code faster than ever, slow builds are increasingly becoming the bottleneck in development velocity. Developers regularly lose hours of productivity every day waiting for their builds. Imagine being able to write code in 1 minute, but needing to wait 30 minutes to compile, deploy, and test it.\r\n\r\nExisting solutions either require painful migrations to new tools (e.g. Bazel) or rely on just using bigger servers to run your builds. Instead, we do native, first-class integrations into ",
+  "industry": "B2B",
+  "tags": [
+   "Developer Tools",
+   "Infrastructure"
+  ],
+  "theme": "software-engineering-ai",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 29709,
+  "name": "Substrate",
+  "batch": "Summer 2024",
+  "one_liner": "Artificial Intelligence for your medical billing team",
+  "description": "Substrate's AI agents automate the click-work & data entry in revenue cycle management. Our agents perform repetitive and time-consuming tasks on behalf of medical billers, significantly increasing efficiency and reducing errors.",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31252,
+  "name": "Moda",
+  "batch": "Winter 2026",
+  "one_liner": "Continual learning for AI agents",
+  "description": "Moda is the continual learning layer for agents. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "engineering-tools-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 26743,
+  "name": "EthosX",
+  "batch": "Summer 2022",
+  "one_liner": "The protocol for derivatives on blockchains",
+  "description": "EthosX is a decentralized finance platform creating end-to-end financial derivatives on blockchains. No centralized exchanges, clearinghouses, depositories, clearing banks, CSD participants etc. required.\r\n\r\nWe are starting with cryptocurrency options first, with the intention to move towards other crypto derivatives and traditional finance derivatives eventually.\r\n\r\nFor example, one can buy a bitcoin hedging token directly from EthosX without involving any exchange or counterparty and earn profits when the bitcoin price is falling (similar to a put option). It is perpetual and is completely o",
+  "industry": "Fintech",
+  "tags": [
+   "DeFi",
+   "Fintech",
+   "Crypto / Web3",
+   "Consumer",
+   "B2B"
+  ],
+  "theme": "software-engineering-ai",
+  "claimed": "none"
+ },
+ {
+  "company_id": 28006,
+  "name": "Mantys",
+  "batch": "Winter 2023",
+  "one_liner": "ARR Reporting and Forecasting for SaaS companies",
+  "description": "Mantys helps SaaS companies calculate and forecast their ARR accurately in real time without using multiple spreadsheets. For example, NextBillion uses Mantys to pull data from HubSpot and Chargebee and create real-time views of their Contracted ARR, Billed ARR, Churn, and forecasted ARR",
+  "industry": "B2B",
+  "tags": [
+   "SaaS",
+   "Finance",
+   "B2B",
+   "India"
+  ],
+  "theme": "open-source",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29509,
+  "name": "Blacksmith",
+  "batch": "Winter 2024",
+  "one_liner": "The fastest way to run your GitHub Actions",
+  "description": "Blacksmith helps companies run their continuous integration (CI) up to twice as fast, at half the cost. We do this by running their CI on high performance gaming CPUs.\r\n\r\n- Engineering productivity is often marred by slow CI that grows quadratically with the size of the engineering organization.\r\n- On top of this, companies pay high markups to run CI on the hyperscalers.\r\n- Consequently, companies have to run their CI on spot instances to keep costs in check. Since spot instances can get pre-empted at any point, running CI reliably on them requires [significant engineering investment](https://",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "space",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29119,
+  "name": "Nowadays",
+  "batch": "Summer 2023",
+  "one_liner": "AI-native platform for corporate meetings and events",
+  "description": "Nowadays is the AI-native platform for corporate meetings and events. Our AI doesn't just assist planners – it does the work. It emails and calls venues, negotiates rates in 22 languages, parses 50-page hotel proposals into clean apples-to-apples comparisons, and surfaces unmanaged meeting spend across your entire org.\r\n\r\nWe work with companies ranging from ones planning one epic company kickoff a year to ones running thousands of meetings through the platform annually. Clients include Google, Airbnb, BlackRock, Anthropic, Pylon, and Mintlify.\r\n\r\nUnlike legacy platforms like Cvent that bolted ",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "B2B",
+   "Logistics",
+   "Marketing",
+   "AI"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30086,
+  "name": "Autumn",
+  "batch": "Summer 2025",
+  "one_liner": "Billing infrastructure for AI",
+  "description": "Autumn is open-source infrastructure over Stripe that allows AI startups to build their pricing plans quickly, and flexibly. We act as your app's DB and manage who's paying for what, track usage and manage customer feature access.\r\n\r\nYC companies use us because we make it easy to handle common pricing models like usage-based, credits, subscriptions, rollovers and more in 3 functions and no webhooks. \r\n\r\nAs you scale, you get reliable billing, that you can change however you want without wrangling code (we handle versioning, migrations etc), and manage custom pricing too. Everything you could d",
+  "industry": "B2B",
+  "tags": [],
+  "theme": "agent-infrastructure",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 25974,
+  "name": "Float Health",
+  "batch": "Winter 2022",
+  "one_liner": "Float is the full-stack platform for Specialty Pharma",
+  "description": "Float connects SuperNurses to home medication visits - making healthcare safer, easier, and cheaper by moving all the visits that don't need a hospital to the home",
+  "industry": "Healthcare",
+  "tags": [
+   "Health Tech"
+  ],
+  "theme": "enterprise-sales",
+  "claimed": "none"
+ },
+ {
+  "company_id": 26803,
+  "name": "Tank Payments",
+  "batch": "Summer 2022",
+  "one_liner": "Modern financial infrastructure for the trucking industry.",
+  "description": "Tank Payments is building modern financial infrastructure for the trucking industry. We offer payables automation software for logistics businesses that make hundreds of payments to trucking businesses every day. For trucking businesses, we provide a best-in-class banking platform, designed to meet the unique financial needs of the trucking sector.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "SaaS",
+   "Payments",
+   "Logistics",
+   "Supply Chain"
+  ],
+  "theme": "fintech",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 31570,
+  "name": "Rindler",
+  "batch": "Summer 2026",
+  "one_liner": "The translation layer between AI agents and the web",
+  "description": "Rindler turns any website, including sites without APIs, into a deterministic API that AI agents can reliably use. It handles logins, 2FA, and bot detection, giving agents clean structured data and dependable actions instead of raw HTML, with robust maintenance when sites change.\r\n\r\nRindler is agent-agnostic and built on the open MCP standard, so it works with any agent.\r\n\r\nFor operators: get your team out of portals and back to the work that matters.\r\n\r\nFor agent builders: let your agents act on the real web quickly, cheaply, and reliably on every run.",
+  "industry": "B2B",
+  "tags": [
+   "B2B",
+   "Workflow Automation",
+   "Infrastructure",
+   "APIs"
+  ],
+  "theme": "agent-infrastructure",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 30200,
+  "name": "Karoo",
+  "batch": "Winter 2025",
+  "one_liner": "AI native consumer lending platform for underserved Americans",
+  "description": "US consumers within the risk appetite of prime lenders are served by the most competitive and efficient consumer lending marketplace globally. However, once you fall outside of this as a borrower, market efficiency breaks down and incumbents take advantage of low levels of competition to price gouge. We're fixing this.",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Consumer",
+   "Neobank"
+  ],
+  "theme": "education-tutoring",
+  "claimed": "none"
+ },
+ {
+  "company_id": 29000,
+  "name": "SafetyKit",
+  "batch": "Summer 2023",
+  "one_liner": "AI agents for risk, compliance, and safety",
+  "description": "SafetyKit's AI agents do the dirty work for big tech and finance companies so humans don't have to.\r\n\r\nToday companies rely on armies of low-paid outsourced humans to protect their platforms from fraud, harassment, and crime. It’s super important work, but the jobs are difficult and sometimes traumatizing, and it’s impossible to keep up. Our mission is to end this manual toil.\r\n\r\nWe learned this domain first-hand at Stripe and Airbnb, where first we built software for human reviewers, and then built models to replace them.\r\n\r\nWe’re a group of engineers from Stripe, Meta, Netflix, MIT, and Prin",
+  "industry": "B2B",
+  "tags": [
+   "Fintech",
+   "Compliance",
+   "Trust & Safety"
+  ],
+  "theme": "spatial-computing",
+  "claimed": "none"
+ },
+ {
+  "company_id": 32194,
+  "name": "GUILD",
+  "batch": "Summer 2026",
+  "one_liner": "Making aerospace parts faster and cheaper for defense",
+  "description": "GUILD is making aerospace parts faster and cheaper than today’s defense supply chain. We win defense contracts, automate manufacturing, and deliver to the government's door.\r\n\r\nWe’ve built an AI-native operating model for defense contracting: a company brain that connects requirements, pricing, supplier capability, compliance, manufacturing, finance, and delivery so each contract makes the next one faster and cheaper.",
+  "industry": "Industrials",
+  "tags": [
+   "Compliance",
+   "Manufacturing",
+   "Supply Chain",
+   "Defense",
+   "AI"
+  ],
+  "theme": "ml-simulation",
+  "claimed": "none"
+ },
+ {
+  "company_id": 31441,
+  "name": "Infera",
+  "batch": "Spring 2026",
+  "one_liner": "Control lab instruments with natural language.",
+  "description": "Describe an experiment in plain English, and Infera turns it into a validated, instrument-ready run across the equipment your lab already uses. Infera handles the protocol logic, vendor-specific scripts, data, inventory, and institutional knowledge in one system. An AI-native compiler for the lab: one system from intent to execution.",
+  "industry": "Healthcare",
+  "tags": [
+   "SaaS",
+   "B2B",
+   "Biotech",
+   "Automation",
+   "AI"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 26264,
+  "name": "Jutsoo",
+  "batch": "Winter 2022",
+  "one_liner": "All your corporate bank accounts connected under one platform",
+  "description": "Jutsoo is a modern treasury management platform that helps finance teams work smarter by having efficient, reliable, real-time visibility and control over their financial data across their different banks and bank accounts.\r\n\r\nWe do this by unifying data from internal systems, integrating directly with banks for your money movements, and reconcile them automatically.\r\n\r\nMoney movements, reconciliations, cash forecasting, and identifying liquidity trends will be a breeze using us.",
+  "industry": "B2B",
+  "tags": [
+   "FinOps",
+   "Fintech",
+   "SaaS",
+   "B2B",
+   "Enterprise Software"
+  ],
+  "theme": "enterprise-software",
+  "claimed": "partial"
+ },
+ {
+  "company_id": 28974,
+  "name": "Gleam",
+  "batch": "Summer 2023",
+  "one_liner": "Automating Data Entry for Clinical Trials",
+  "description": "Gleam automates data entry for clinical research sites.",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "Biotech",
+   "Healthcare"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 26859,
+  "name": "Typewise",
+  "batch": "Summer 2022",
+  "one_liner": "Boosting customer service and sales productivity by 2-3x.",
+  "description": "Typewise is an AI-first customer service platform where orchestrated agents resolve requests end-to-end by taking real actions across your stack. Teams describe outcomes in natural language and the platform compiles them into working automations—no flowcharts, no code. You can safely simulate changes and roll them out step by step.\r\n\r\nFortune 500 brands such as Unilever and DPD use Typewise to cut support effort by 50%+ while increasing CSAT and NPS. With 200+ integrations, Typewise reads from and writes to CRM, ERP, and other systems to fully resolve cases, handing off to humans only where th",
+  "industry": "B2B",
+  "tags": [
+   "Artificial Intelligence",
+   "B2B",
+   "Productivity",
+   "API"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 27968,
+  "name": "Alaan",
+  "batch": "Winter 2023",
+  "one_liner": "Modern finance platform for the Middle East",
+  "description": "Alaan is an AI-native finance platform for businesses in the Middle East. We combine corporate cards, a business bank account*, international transfers, expense management, and accounting automation into one platform, with intelligence baked into every finance workflow.\r\n\r\nOur mission is to simplify finance for businesses in the Middle East and help them prosper. We've grown rapidly, and now work with over 3,000 startups, mid-market, and enterprise customers, doing tens of millions of dollars in monthly payment volume. We've been default alive since our launch in August 2022, and raised one of",
+  "industry": "Fintech",
+  "tags": [
+   "Fintech",
+   "Payments",
+   "B2B",
+   "Enterprise Software"
+  ],
+  "theme": "fintech",
+  "claimed": "strong"
+ },
+ {
+  "company_id": 29364,
+  "name": "Dime",
+  "batch": "Winter 2024",
+  "one_liner": "Dime automates administrative busywork at healthcare clinics",
+  "description": "At Dime, we automate repetitive administrative work in healthcare clinics, including insurance coordination, referrals, referring-provider communication, scheduling, and patient communication. \r\n\r\nWe integrate directly with RIS and EHR systems, creating true end-to-end automation rather than adding another software layer. Our HIPAA-compliant AI agents eliminate paperwork bottlenecks, reduce errors, and restore hours of clinical time - enabling care teams to focus on patients.",
+  "industry": "B2B",
+  "tags": [
+   "Healthcare"
+  ],
+  "theme": "vertical-agents",
+  "claimed": "strong"
+ }
+]

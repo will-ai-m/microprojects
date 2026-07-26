@@ -1,0 +1,100 @@
+{"id": 30888, "matches": [{"theme": "public-safety", "confidence": "strong", "why": "AI analyzing radio communications for law enforcement situational awareness"}]}
+{"id": 30932, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Infrastructure qualifying leads for AI agent workflows"}]}
+{"id": 30969, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Observability platform for catching semantic failures in AI agents"}]}
+{"id": 31018, "matches": [{"theme": "enterprise-software", "confidence": "strong", "why": "AI-native CRM replacing legacy systems; autonomous agents for sales/support"}]}
+{"id": 30421, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents automating life sciences engagement and HCP interactions"}]}
+{"id": 30452, "matches": [{"theme": "open-source", "confidence": "strong", "why": "Open-source framework gaining developer adoption for authentication"}]}
+{"id": 30487, "matches": [{"theme": "fintech", "confidence": "strong", "why": "Stablecoin-based financial services platform"}, {"theme": "stablecoins-crypto", "confidence": "strong", "why": "AI-native finance using programmable stablecoins"}]}
+{"id": 30527, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents for autonomous pentesting; security automation platform"}]}
+{"id": 30562, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents writing and maintaining E2E tests automatically"}]}
+{"id": 31326, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating therapy practice administration and billing"}]}
+{"id": 31376, "matches": [{"theme": "ai-native-services", "confidence": "strong", "why": "Full-stack AI-native consumer businesses with minimal human headcount"}]}
+{"id": 31417, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent helping technicians fix equipment in factories"}]}
+{"id": 31453, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Platform enabling AI agents to interact with legacy desktop apps via API"}]}
+{"id": 31493, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents automating specialty clinic administration and workflows"}]}
+{"id": 31534, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI automating clinical trial data management and compliance workflows"}]}
+{"id": 26427, "matches": []}
+{"id": 26703, "matches": []}
+{"id": 26737, "matches": [{"theme": "consumer-ai", "confidence": "partial", "why": "AI optimizing group transportation demand"}]}
+{"id": 26793, "matches": [{"theme": "open-source", "confidence": "strong", "why": "Open-source developer platform for automation gaining adoption"}]}
+{"id": 26863, "matches": [{"theme": "vertical-agents", "confidence": "partial", "why": "AI analyzing construction documents for risk identification"}]}
+{"id": 27045, "matches": [{"theme": "voice-ai", "confidence": "strong", "why": "Voice AI agents for healthcare billing and collections"}, {"theme": "vertical-agents", "confidence": "strong", "why": "Finished agents performing healthcare RCM labor"}]}
+{"id": 27147, "matches": []}
+{"id": 27194, "matches": []}
+{"id": 28593, "matches": [{"theme": "space", "confidence": "partial", "why": "Long-range autonomous aerial monitoring platform"}]}
+{"id": 28804, "matches": [{"theme": "voice-ai", "confidence": "strong", "why": "Voice AI platform for enterprise phone automation"}]}
+{"id": 28843, "matches": [{"theme": "ai-research-labs", "confidence": "strong", "why": "AI research lab training models for data retrieval and reasoning"}]}
+{"id": 28890, "matches": [{"theme": "enterprise-software", "confidence": "strong", "why": "AI-native EHR with ambient scribe for med spas"}, {"theme": "vertical-agents", "confidence": "partial", "why": "AI agents for scheduling and patient communication"}]}
+{"id": 28959, "matches": [{"theme": "physical-world-data", "confidence": "strong", "why": "3D mapping and property data collection"}]}
+{"id": 29006, "matches": [{"theme": "personal-assistants", "confidence": "strong", "why": "AI autonomously analyzing customer feedback for insights"}]}
+{"id": 29089, "matches": []}
+{"id": 29136, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Platform for building and deploying reliable AI agents at scale"}]}
+{"id": 29570, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating supply chain planning for CPG"}]}
+{"id": 29640, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating financial analysis and accounting"}]}
+{"id": 29678, "matches": [{"theme": "fintech", "confidence": "strong", "why": "AI-powered wealth management integrated with checking"}]}
+{"id": 29713, "matches": [{"theme": "bio-foundation-models", "confidence": "strong", "why": "Foundation models for protein design and discovery"}]}
+{"id": 29750, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents autonomously finding and patching vulnerabilities"}]}
+{"id": 29783, "matches": [{"theme": "defense-tech", "confidence": "strong", "why": "AI-enabled drone detection for national security"}]}
+{"id": 29819, "matches": []}
+{"id": 29857, "matches": [{"theme": "healthcare-ai", "confidence": "strong", "why": "AI automating hospital quality and compliance reporting"}]}
+{"id": 29992, "matches": [{"theme": "engineering-tools-ai", "confidence": "strong", "why": "AI extracting engineering data and optimizing processes"}]}
+{"id": 30619, "matches": [{"theme": "fintech", "confidence": "strong", "why": "Financial infrastructure for international payments and payroll"}]}
+{"id": 30662, "matches": [{"theme": "robotics", "confidence": "strong", "why": "Robotics hardware supply and RL environment support"}]}
+{"id": 30698, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents automating order entry for distributors"}]}
+{"id": 30733, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI-native platform automating car wash operations"}]}
+{"id": 30781, "matches": [{"theme": "manufacturing-reshoring", "confidence": "strong", "why": "Domestic manufacturing of critical metals via novel process"}]}
+{"id": 31161, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents automating back-office for financial services"}]}
+{"id": 32129, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Shared memory infrastructure across AI applications"}]}
+{"id": 32256, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents running hotel operations autonomously"}]}
+{"id": 32782, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI automating dental practice administration and patient management"}]}
+{"id": 33314, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating patient scheduling and communications for radiology"}]}
+{"id": 25160, "matches": []}
+{"id": 25319, "matches": []}
+{"id": 25356, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Platform for structuring conversation data for agents and LLMs"}]}
+{"id": 25449, "matches": []}
+{"id": 25538, "matches": [{"theme": "vertical-agents", "confidence": "partial", "why": "LLM specialized for legal work in Brazil"}]}
+{"id": 25593, "matches": [{"theme": "fintech", "confidence": "strong", "why": "Payment and financial management platform"}]}
+{"id": 25656, "matches": []}
+{"id": 25696, "matches": [{"theme": "compliance", "confidence": "strong", "why": "AI agents automating security compliance and audits"}]}
+{"id": 25753, "matches": []}
+{"id": 25866, "matches": []}
+{"id": 25954, "matches": []}
+{"id": 26004, "matches": [{"theme": "education-tutoring", "confidence": "partial", "why": "Education program with job placement"}]}
+{"id": 26121, "matches": [{"theme": "enterprise-software", "confidence": "partial", "why": "Project management software for filmmaking"}]}
+{"id": 26296, "matches": [{"theme": "human-verification", "confidence": "strong", "why": "Detecting deepfakes and verifying human identity"}]}
+{"id": 27679, "matches": []}
+{"id": 27725, "matches": [{"theme": "vertical-agents", "confidence": "partial", "why": "AI drafting responses for customer support"}]}
+{"id": 27824, "matches": [{"theme": "vertical-agents", "confidence": "partial", "why": "AI-optimized workflows for solar contractors"}]}
+{"id": 27869, "matches": [{"theme": "software-engineering-ai", "confidence": "strong", "why": "AI generating full-stack applications from natural language"}]}
+{"id": 27919, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Observability platform for LLM applications"}]}
+{"id": 27964, "matches": [{"theme": "agent-infrastructure", "confidence": "partial", "why": "AI agents for game QA and player simulation"}]}
+{"id": 28070, "matches": [{"theme": "enterprise-software", "confidence": "partial", "why": "SaaS for infrastructure project management"}]}
+{"id": 28112, "matches": []}
+{"id": 28361, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents automating document-heavy enterprise processes"}]}
+{"id": 29185, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Infrastructure for building verifiable AI agents"}]}
+{"id": 29265, "matches": []}
+{"id": 29300, "matches": []}
+{"id": 29334, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents generating and maintaining tests automatically"}]}
+{"id": 29368, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "AI agents for offensive and defensive security"}]}
+{"id": 29402, "matches": [{"theme": "robotics", "confidence": "strong", "why": "Humanoid robots for logistics and fulfillment automation"}]}
+{"id": 29436, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Infrastructure improving LLM performance and latency"}]}
+{"id": 29472, "matches": [{"theme": "chip-design-ai", "confidence": "strong", "why": "AI-powered platform for chip design simulation and debugging"}]}
+{"id": 29517, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI guiding warehouse workers through compliance procedures"}]}
+{"id": 30189, "matches": []}
+{"id": 30224, "matches": []}
+{"id": 30254, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Evaluation and training infrastructure for AI agents"}]}
+{"id": 30284, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating site reliability engineering and deployments"}]}
+{"id": 30321, "matches": []}
+{"id": 28879, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI analyst automating data analysis for consumer brands"}]}
+{"id": 31062, "matches": [{"theme": "robotics", "confidence": "partial", "why": "Supply chain for robotics hardware manufacturing"}]}
+{"id": 31111, "matches": [{"theme": "explainable-ai", "confidence": "strong", "why": "Interpretability SDK for analyzing model behaviors"}]}
+{"id": 31147, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Infrastructure validating agent actions before execution"}]}
+{"id": 31180, "matches": [{"theme": "defense-tech", "confidence": "strong", "why": "Modular autonomous drones with agentic control systems"}]}
+{"id": 31215, "matches": []}
+{"id": 31264, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agent automating complex interview and meeting scheduling"}]}
+{"id": 30022, "matches": [{"theme": "voice-ai", "confidence": "strong", "why": "Voice AI creating simulations for employee training"}]}
+{"id": 30054, "matches": []}
+{"id": 30097, "matches": [{"theme": "robotics", "confidence": "strong", "why": "General-purpose personal AI robots for consumers"}]}
+{"id": 26144, "matches": [{"theme": "agent-infrastructure", "confidence": "strong", "why": "Platform for deploying and monetizing AI agents"}]}
+{"id": 30856, "matches": [{"theme": "vertical-agents", "confidence": "strong", "why": "AI agents automating drug trial regulatory documentation"}]}
+{"id": 30889, "matches": [{"theme": "agent-infrastructure", "confidence": "partial", "why": "AI agents for B2B sales in physical services"}]}

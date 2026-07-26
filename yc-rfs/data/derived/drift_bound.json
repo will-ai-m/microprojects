@@ -1,0 +1,100 @@
+{
+  "overall": {
+    "baseline": {
+      "n": 1375,
+      "any_match": 0.8356363636363636,
+      "strong_match": 0.5410909090909091
+    },
+    "rfs_era": {
+      "n": 1497,
+      "any_match": 0.9111556446225785,
+      "strong_match": 0.7548430193720775
+    },
+    "gap_any_match": 0.07551928098621485,
+    "gap_strong_match": 0.21375211028116847
+  },
+  "ai_tagged": {
+    "baseline": {
+      "n": 658,
+      "any_match": 0.9240121580547113,
+      "strong_match": 0.6945288753799392
+    },
+    "rfs_era": {
+      "n": 741,
+      "any_match": 0.9311740890688259,
+      "strong_match": 0.7759784075573549
+    },
+    "gap_any_match": 0.007161931014114664,
+    "gap_strong_match": 0.08144953217741568
+  },
+  "non_ai_tagged": {
+    "baseline": {
+      "n": 717,
+      "any_match": 0.7545327754532776,
+      "strong_match": 0.400278940027894
+    },
+    "rfs_era": {
+      "n": 756,
+      "any_match": 0.8915343915343915,
+      "strong_match": 0.7341269841269841
+    },
+    "gap_any_match": 0.13700161608111394,
+    "gap_strong_match": 0.3338480440990901
+  },
+  "vocabulary_intensity": {
+    "Low": {
+      "baseline": {
+        "n": 641,
+        "any": 0.7316692667706708,
+        "strong": 0.3541341653666147
+      },
+      "rfs_era": {
+        "n": 339,
+        "any": 0.8023598820058997,
+        "strong": 0.5132743362831859
+      },
+      "gap_any": 0.0706906152352289,
+      "gap_strong": 0.15914017091657118
+    },
+    "Mid": {
+      "baseline": {
+        "n": 435,
+        "any": 0.9057471264367816,
+        "strong": 0.632183908045977
+      },
+      "rfs_era": {
+        "n": 572,
+        "any": 0.9230769230769231,
+        "strong": 0.7657342657342657
+      },
+      "gap_any": 0.01732979664014156,
+      "gap_strong": 0.1335503576882887
+    },
+    "High": {
+      "baseline": {
+        "n": 299,
+        "any": 0.9565217391304348,
+        "strong": 0.8093645484949833
+      },
+      "rfs_era": {
+        "n": 586,
+        "any": 0.962457337883959,
+        "strong": 0.8839590443686007
+      },
+      "gap_any": 0.005935598753524229,
+      "gap_strong": 0.07459449587361744
+    }
+  },
+  "vocabulary_drift": {
+    "ai_tag_share_baseline": 0.47854545454545455,
+    "ai_tag_share_rfs_era": 0.49498997995991983,
+    "ai_tag_share_change": 0.016444525414465283,
+    "mean_keyword_count_baseline": 1.418909090909091,
+    "mean_keyword_count_rfs_era": 2.2839011356045424,
+    "mean_keyword_count_change": 0.8649920446954515
+  },
+  "tercile_boundaries": {
+    "low_max": 0,
+    "mid_max": 2
+  }
+}

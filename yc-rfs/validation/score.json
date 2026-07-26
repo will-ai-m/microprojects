@@ -1,0 +1,97 @@
+{
+ "n_pairs": 100,
+ "binary_agreement": 0.89,
+ "strict_agreement": 0.73,
+ "precision_binary": 0.8166666666666667,
+ "recall_binary": 1.0,
+ "strong_precision_exact": 0.725,
+ "strong_precision_loose": 0.9,
+ "confusion": {
+  "claimed=none|truth=none": 40,
+  "claimed=partial|truth=none": 7,
+  "claimed=partial|truth=partial": 4,
+  "claimed=partial|truth=strong": 9,
+  "claimed=strong|truth=none": 4,
+  "claimed=strong|truth=partial": 7,
+  "claimed=strong|truth=strong": 29
+ },
+ "disagreements": [
+  {
+   "name": "Open",
+   "theme": "vertical-agents",
+   "claimed": "strong",
+   "truth": "none",
+   "one_liner": "Enterprise AI customer support"
+  },
+  {
+   "name": "Origami",
+   "theme": "vertical-agents",
+   "claimed": "strong",
+   "truth": "none",
+   "one_liner": "Get your perfect customers with one prompt"
+  },
+  {
+   "name": "DreamRP",
+   "theme": "design-founders",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "Tech and platforms for human creators and the entertainment industry"
+  },
+  {
+   "name": "Aklimate",
+   "theme": "enterprise-software",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "Software for enterprises to track and reduce supply chain emissions"
+  },
+  {
+   "name": "Stormy",
+   "theme": "agent-infrastructure",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "Al platform that makes social marketing as easy as running a Google…"
+  },
+  {
+   "name": "Instalab",
+   "theme": "healthcare-ai",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "Proactive Testing and Treatments"
+  },
+  {
+   "name": "Struct",
+   "theme": "vertical-agents",
+   "claimed": "strong",
+   "truth": "none",
+   "one_liner": "Agents that keep prod running"
+  },
+  {
+   "name": "sieve",
+   "theme": "agent-infrastructure",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "AI + human review to solve data cleaning - accessible via API or Excel"
+  },
+  {
+   "name": "Fogbender",
+   "theme": "enterprise-software",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "Customer support tool purpose-built for companies that sell APIs"
+  },
+  {
+   "name": "Jutsoo",
+   "theme": "enterprise-software",
+   "claimed": "partial",
+   "truth": "none",
+   "one_liner": "All your corporate bank accounts connected under one platform"
+  },
+  {
+   "name": "Typewise",
+   "theme": "vertical-agents",
+   "claimed": "strong",
+   "truth": "none",
+   "one_liner": "Boosting customer service and sales productivity by 2-3x."
+  }
+ ]
+}

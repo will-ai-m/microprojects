@@ -1,0 +1,15 @@
+{
+ "n": 400,
+ "with_batch": {
+  "baseline": 0.6947368421052632,
+  "rfs_era": 0.8380952380952381
+ },
+ "without_batch": {
+  "baseline": 0.9105263157894737,
+  "rfs_era": 0.9476190476190476
+ },
+ "gap_with_batch": 0.1433583959899749,
+ "gap_without_batch": 0.037092731829573844,
+ "agreement": 0.75,
+ "note": "blinded run was far more permissive overall (ceiling effect compresses any gap); suggestive, not a clean measurement"
+}

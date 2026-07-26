@@ -1,0 +1,6 @@
+{
+ "n_companies_double_classified": 372,
+ "agreement_matches_anything": 0.6935,
+ "mean_jaccard_theme_sets": 0.344,
+ "note": "Two independent Haiku passes over the same 372 companies using the identical catalog and prompt. This is pipeline test-retest reliability, distinct from the blind-validation accuracy score."
+}

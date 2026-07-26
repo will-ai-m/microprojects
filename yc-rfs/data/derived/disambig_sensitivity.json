@@ -1,0 +1,29 @@
+{
+ "description": "Sensitivity: the two largest, most overlapping themes re-classified under a sharpened boundary (developer/agent-facing plumbing vs. industry-specific labor; horizontal business software that merely uses agents matches neither).",
+ "n_reclassified": 883,
+ "themes": {
+  "agent-infrastructure": {
+   "n_original": 323,
+   "n_disambiguated": 119,
+   "shift_original": 0.062,
+   "shift_disambiguated": 0.002,
+   "ci_disambiguated": [
+    -0.006,
+    0.011
+   ],
+   "verdict": "collapses \u2014 the headline shift does not survive a sharper boundary"
+  },
+  "vertical-agents": {
+   "n_original": 562,
+   "n_disambiguated": 268,
+   "shift_original": 0.063,
+   "shift_disambiguated": 0.022,
+   "ci_disambiguated": [
+    -0.012,
+    0.062
+   ],
+   "verdict": "weakens; interval spans zero (already failed FDR under original labels)"
+  }
+ },
+ "note": "Primary labels are left unchanged so all 48 themes share one standard. This run applied a stricter standard to two themes only, so it is a sensitivity check, not a replacement."
+}

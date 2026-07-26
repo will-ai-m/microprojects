@@ -1,0 +1,1048 @@
+[
+ {
+  "id": "defense-tech",
+  "name": "Defense technology",
+  "active_batches": [
+   "Fall 2026",
+   "Summer 2024",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "New Defense Technology",
+    "author": "Jared Friedman and Gustaf Alströmer",
+    "summary": "Defense tech companies like Palantir and Anduril with modern, efficient approaches to selling to the DoD, replacing bloated legacy defense contractors."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Counter-Swarm Defense",
+    "author": "Tyler Bosmeny",
+    "summary": "Defense systems against coordinated drone swarms using novel interceptors, sensor fusion software, non-kinetic defenses, and attacks on autonomy stacks."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "The Future of American Defense",
+    "author": "Daniel P. Driscoll, US Secretary of the Army",
+    "summary": "Modular open-system defense components, low-cost interceptors, sensors, software, drones, resilient logistics, and advanced manufacturing for Army operations."
+   }
+  ]
+ },
+ {
+  "id": "public-safety",
+  "name": "Public safety technology",
+  "active_batches": [
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "Public Safety Technology",
+    "author": "Garry Tan",
+    "summary": "Computer vision for suspicious activity detection, emergency response coordination, community safety tools, and law enforcement efficiency tech that improves public safety fairly."
+   }
+  ]
+ },
+ {
+  "id": "stablecoins-crypto",
+  "name": "Stablecoins & crypto financial rails",
+  "active_batches": [
+   "Fall 2026",
+   "Spring 2026",
+   "Summer 2024",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Stablecoin Finance",
+    "author": "Brad Flora",
+    "summary": "B2B and consumer products/platforms on stablecoins, stablecoin protocols, and infrastructure enabling lower-cost transactions and cross-border payments at scale."
+   },
+   {
+    "batch": "Winter 2025",
+    "title": "Stablecoins 2.0",
+    "author": "Brad Flora and Harj Taggar",
+    "summary": "B2B stablecoin services for holding/managing stablecoins and developer platforms simplifying stablecoin integration."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "Stablecoin Financial Services",
+    "author": "Daivik Goel",
+    "summary": "DeFi/TradFi hybrid financial services (yield-bearing accounts, investment access, infrastructure) using stablecoins in regulatory compliance frameworks."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "The Best Time to Build in Crypto",
+    "author": "Nemil Dalal",
+    "summary": "Crypto infrastructure including stablecoins, capital raising, payments, trading, DeFi, institutional products, and scalable/private blockchains for AI integration."
+   }
+  ]
+ },
+ {
+  "id": "govtech",
+  "name": "Government software & AI for government",
+  "active_batches": [
+   "Fall 2025",
+   "Spring 2026",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "Government Software",
+    "author": "Harj Taggar",
+    "summary": "AI software automating government administrative work (forms, applications, document review, summaries) to reduce spending and improve efficiency."
+   },
+   {
+    "batch": "Fall 2025",
+    "title": "Using LLMs Instead of Government Consulting",
+    "author": "Gustaf Alstromer",
+    "summary": "LLM software automating work currently done by government consultants, including regulatory analysis, policy review, and FedRAMP compliance."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "AI for Government",
+    "author": "Tom Blomfield",
+    "summary": "AI tools processing forms, applications, and documents received by government at scale to modernize government operations."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "Infra for Government Fraud Hunters",
+    "author": "Garry Tan",
+    "summary": "Software accelerating whistleblower law firms and investigators by organizing evidence, tracing structures, and preparing False Claims Act complaints."
+   }
+  ]
+ },
+ {
+  "id": "education-tutoring",
+  "name": "AI tutoring & the future of education",
+  "active_batches": [
+   "Fall 2025",
+   "Fall 2026",
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "AI Personal Tutor for Everyone",
+    "author": "Harj Taggar",
+    "summary": "Personalized AI tutors using multimodal reasoning to break down complex topics, generate animations, and explain any subject interactively at scale."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "The Future of Education",
+    "author": "Tom Blomfield",
+    "summary": "AI reshaping education through personalized instruction, teacher tools, student tools, and new business models despite tight budgets and slow purchasing cycles."
+   },
+   {
+    "batch": "Fall 2025",
+    "title": "Retraining Workers for the AI Economy",
+    "author": "Harj Taggar",
+    "summary": "AI-powered vocational schools training workers (electricians, welders, HVAC technicians) for physical infrastructure jobs with personalized, scalable curricula."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "The Primer",
+    "author": "Andrew Miklas",
+    "summary": "AI tutors adaptively teaching young children reading, writing, and arithmetic at devoted private-tutor quality and scale, supplementing teachers."
+   }
+  ]
+ },
+ {
+  "id": "enterprise-software",
+  "name": "AI-native enterprise software (ERP/CRM/SaaS replacement)",
+  "active_batches": [
+   "Fall 2025",
+   "Summer 2024",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "New Enterprise Resource Planning Software",
+    "author": "Dalton Caldwell",
+    "summary": "Enterprise software replacing bloated, expensive ERPs with flexible, user-friendly systems that are loved by customers and remain critical to business operations."
+   },
+   {
+    "batch": "Summer 2024",
+    "title": "AI to Build Enterprise Software",
+    "author": "Harj Taggar",
+    "summary": "AI automatically customizing enterprise software (ERP, CRM, HRIS) for each customer without bloated features, replacing long sales cycles with simple starter products and AI-driven personalization."
+   },
+   {
+    "batch": "Fall 2025",
+    "title": "AI Native Enterprise Software",
+    "author": "Andrew Miklas",
+    "summary": "AI-native cloud enterprise software (CRM, ITSM, ERP) with deeply embedded intelligence helping employees work faster and more accurately than legacy incumbents."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "SaaS Challengers",
+    "author": "Jared Friedman",
+    "summary": "AI-native replacements for legacy SaaS (Salesforce, ERPs, design software, industrial control, supply chain) that rethink workflows from scratch."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "The AI Operating System for Companies",
+    "author": "Diana Hu",
+    "summary": "Connective intelligence layer making company artifacts (meetings, tickets, interactions) legible to AI to close feedback loops and enable self-improvement."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Company Brain",
+    "author": "Tom Blomfield",
+    "summary": "System extracting, structuring, and maintaining company knowledge from fragmented sources into executable skills files for AI agents to safely and consistently operate."
+   }
+  ]
+ },
+ {
+  "id": "back-office-automation",
+  "name": "LLM automation of back-office processes",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "LLMs for Manual Back Office Processes in Legacy Enterprises",
+    "author": "Tom Blomfield",
+    "summary": "LLMs automating repetitive, rule-based back office processes like invoice processing, contract review, and customer service requests in large enterprises."
+   }
+  ]
+ },
+ {
+  "id": "compliance",
+  "name": "AI compliance & audit",
+  "active_batches": [
+   "Fall 2026",
+   "Spring 2025"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "Compliance and Audit",
+    "author": "Tom Blomfield",
+    "summary": "LLM-powered tools automating compliance testing, regulatory document parsing, policy checking, and anomaly detection across all company data at scale."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "AI-Native Compliance Infrastructure",
+    "author": "Daivik Goel",
+    "summary": "Consolidated compliance automation across regulatory regimes, reducing headcount reliance while giving real-time visibility into multi-jurisdiction requirements."
+   }
+  ]
+ },
+ {
+  "id": "open-source",
+  "name": "Commercial open source",
+  "active_batches": [
+   "Spring 2025",
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Commercial Open Source Companies",
+    "author": "Nicolas Dessaigne and Diana Hu",
+    "summary": "Open source developer tools and infrastructure that gain adoption through technical merit and become the standard choice for software engineers, then mature to sell to enterprises."
+   },
+   {
+    "batch": "Spring 2025",
+    "title": "AI Commercial Open Source Software (AICOSS)",
+    "author": "Dalton Caldwell",
+    "summary": "Support, services, and commercial infrastructure helping enterprises adopt and use open source AI systems."
+   }
+  ]
+ },
+ {
+  "id": "robotics",
+  "name": "Robotics & robot software tools",
+  "active_batches": [
+   "Summer 2024",
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Applying Machine Learning to Robotics",
+    "author": "Diana Hu and Jared Friedman",
+    "summary": "Software tools enabling robot development or robots themselves for B2B industrial and farm applications (inspection, autonomous vehicles) leveraging foundation models for perception."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "Software Tools To Make Robots",
+    "author": "Diana Hu",
+    "summary": "Software tools helping others build robots for industrial inspection, farming, and other B2B use cases leveraging foundation models for perception and reasoning."
+   }
+  ]
+ },
+ {
+  "id": "physical-world-ops",
+  "name": "Operating systems for physical work",
+  "active_batches": [
+   "Fall 2026",
+   "Spring 2026"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2026",
+    "title": "AI Guidance for Physical Work",
+    "author": "David Lieb",
+    "summary": "Real-time multimodal AI coaching workers through field service, manufacturing, and healthcare tasks via cameras and wearables, eliminating need for months of training."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "New Operating Systems for the Physical World",
+    "author": "Charlie Warren",
+    "summary": "OS managing AI agents, robots, and field workers together for construction, maintenance, and fleet operations replacing job dispatching/tracking software."
+   }
+  ]
+ },
+ {
+  "id": "physical-world-data",
+  "name": "Sensor data for the physical world",
+  "active_batches": [
+   "Fall 2026"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2026",
+    "title": "Data for the Real World",
+    "author": "Austin Tindle and Diana Hu",
+    "summary": "Dense physical-world data collection via sensors, robots, autonomous vehicles, weather balloons to train AI models on real-world systems."
+   }
+  ]
+ },
+ {
+  "id": "healthcare-ai",
+  "name": "Healthcare AI & diagnostics",
+  "active_batches": [
+   "Summer 2024",
+   "Summer 2025",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "A Way to End Cancer",
+    "author": "Surbhi Sarna",
+    "summary": "MRI hardware innovation, AI algorithms to interpret scans and reduce false positives, and business models to scale affordable early cancer detection 100x globally."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "Healthcare AI",
+    "author": "Gustaf Alströmer",
+    "summary": "AI automating healthcare administrative overhead by extracting data from PDFs and legacy systems and autonomously entering it into different systems."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "AI Personalized Medicine",
+    "author": "Ankit Gupta",
+    "summary": "AI agents analyzing personal health data (diagnostics, genome, EHR, wearables) to provide user-specific disease risk and personalized genetic therapy recommendations."
+   }
+  ]
+ },
+ {
+  "id": "bio-foundation-models",
+  "name": "Foundation models for biology",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Foundation Models for Biological Systems",
+    "author": "Surbhi Sarna",
+    "summary": "Foundation models trained on biological and medical data to accelerate scientific discovery and unlock new approaches to disease."
+   }
+  ]
+ },
+ {
+  "id": "science-ai",
+  "name": "AI for scientific advancement",
+  "active_batches": [
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "AI for Scientific Advancement",
+    "author": "Diana Hu",
+    "summary": "AI using test-time compute to transform scientific discovery and physical manufacturing in chemistry, biology, materials science, and operations research."
+   }
+  ]
+ },
+ {
+  "id": "healthcare-services",
+  "name": "Healthcare delivery models (MSO, middlemen removal)",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "The Managed Service Organization Model for Healthcare",
+    "author": "Surbhi Sarna",
+    "summary": "MSO platforms providing billing/scheduling software and patient flow infrastructure to enable physician-owned clinics to compete with PE-backed conglomerates across healthcare verticals."
+   },
+   {
+    "batch": "Summer 2024",
+    "title": "Eliminating Middlemen in Healthcare",
+    "author": "Surbhi Sarna",
+    "summary": "Startups removing inefficient intermediaries (PBMs, wholesalers, pharmacies, insurance layers) in healthcare delivery and pharmaceuticals to improve margins and patient outcomes."
+   }
+  ]
+ },
+ {
+  "id": "space",
+  "name": "Space companies & space industry",
+  "active_batches": [
+   "Summer 2026",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "New Space Companies",
+    "author": "Jared Friedman and Dalton Caldwell",
+    "summary": "Satellite and space-based businesses leveraging 10x lower launch costs from SpaceX and advances in rocket reusability."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Electronics in Space",
+    "author": "Philip Johnston",
+    "summary": "Inference chips optimized for mass, thermal tolerance, and radiation for AI compute requirements in space."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Industrial Capabilities in Space",
+    "author": "Adi Oltean",
+    "summary": "Mining/extracting raw materials (silicon, aluminum, iron, titanium) via electrolysis and 3D printing complex structures from regolith on the moon and space."
+   }
+  ]
+ },
+ {
+  "id": "engineering-tools-ai",
+  "name": "AI-aided engineering (CAD/CAE) tools",
+  "active_batches": [
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "AI-Aided Engineering Tools",
+    "author": "Diana Hu",
+    "summary": "AI-powered CAD/CAM, EDA, and CFD tools with reasoning capabilities to accelerate design of physical systems (planes, buildings, chips, satellites)."
+   }
+  ]
+ },
+ {
+  "id": "chip-design-ai",
+  "name": "AI for chip design & hardware code",
+  "active_batches": [
+   "Spring 2025",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "LLMs for Chip Design",
+    "author": "Garry Tan",
+    "summary": "LLMs designing ASICs and FPGAs to significantly reduce custom design/development/testing costs for specialized digital systems and computation."
+   },
+   {
+    "batch": "Spring 2025",
+    "title": "AI Coding Agents for Hardware-Optimized Code",
+    "author": "Diana Hu",
+    "summary": "AI generating hardware-optimized kernels and system-level code rivaling or surpassing human CUDA code to enable competing hardware (AMD, custom silicon)."
+   }
+  ]
+ },
+ {
+  "id": "compute-infrastructure",
+  "name": "AI compute infrastructure & datacenters",
+  "active_batches": [
+   "Fall 2026",
+   "Spring 2025",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "Datacenters",
+    "author": "Diana Hu",
+    "summary": "Faster, cheaper datacenter construction/management via software orchestration and robotics for site selection, construction, setup, and autonomous operation."
+   },
+   {
+    "batch": "Spring 2025",
+    "title": "Inference AI Infrastructure in the World of Test-Time Compute",
+    "author": "Diana Hu",
+    "summary": "Software tooling, optimization, and infrastructure addressing inference costs for reasoning models (o1, o3, Deepseek R1) during agent execution."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Inference Chips for Agent Workflows",
+    "author": "Diana Hu",
+    "summary": "Purpose-built silicon optimized for agentic AI loops (fast context switching, speculative decoding, persistent KV caches) rather than prompt-response inference."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "Compute at Sea",
+    "author": "Francois Chaubard",
+    "summary": "Offshore/floating datacenters on ocean vessels leveraging abundant sunlight, natural heat sinks, no permitting requirements for AI compute infrastructure."
+   }
+  ]
+ },
+ {
+  "id": "manufacturing-reshoring",
+  "name": "Manufacturing, reshoring & hardware supply chain",
+  "active_batches": [
+   "Spring 2026",
+   "Summer 2026",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "Manufacture in the USA",
+    "author": "Jared Friedman",
+    "summary": "ML-based robotics and automation systems enabling cost-effective domestic manufacturing by reducing labor arbitrage and scaling American production."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "Modern Metal Mills",
+    "author": "Zane Hengsperger",
+    "summary": "Software and automation modernizing American metal mills for speed and flexibility by rethinking production planning, scheduling, and energy management."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Hardware Supply Chain",
+    "author": "Nicolas Dessaigne",
+    "summary": "Tools and systems enabling dramatic iteration speed for hardware by shortening design-to-production cycles through dense US supplier networks and integration."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Supply Chain 2.0 for Semiconductors",
+    "author": "Diana Hu",
+    "summary": "Real-time semiconductor supply chain visibility, multi-tier risk monitoring, wafer allocation tracking, and export compliance across global manufacturing."
+   }
+  ]
+ },
+ {
+  "id": "fintech",
+  "name": "Fintech & AI financial services",
+  "active_batches": [
+   "Spring 2026",
+   "Summer 2025",
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "Fintech 2.0",
+    "author": "Dalton Caldwell",
+    "summary": "Financial products (insurance, investment banking, wealth management, international payments) built on new infrastructure (Stripe, stablecoins) with AI-native capabilities."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "AI for Personal Finance",
+    "author": "Gustaf Alströmer",
+    "summary": "Personalized AI providing unbiased finance, investment, and tax advice using APIs to access complete financial data at near-zero cost."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "AI-Native Hedge Funds",
+    "author": "Charlie Holtz",
+    "summary": "Hedge funds built natively on AI agents analyzing markets, synthesizing research, and making trades instead of using AI as a bolt-on to existing strategies."
+   }
+  ]
+ },
+ {
+  "id": "agent-infrastructure",
+  "name": "AI agent infrastructure & devtools",
+  "active_batches": [
+   "Fall 2025",
+   "Fall 2026",
+   "Spring 2025",
+   "Summer 2025",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "Devtools for AI Agents",
+    "author": "Nicolas Dessaigne",
+    "summary": "Tools and infrastructure for building/deploying AI agents, including agent builders and building blocks enhancing agent capabilities and complexity."
+   },
+   {
+    "batch": "Spring 2025",
+    "title": "B2A: Software Where the Customers Will All Be Agents",
+    "author": "Dalton Caldwell",
+    "summary": "Software, APIs, and services explicitly designed for agents as first-class customers, including agent payments, contracts, and automated workflows."
+   },
+   {
+    "batch": "Spring 2025",
+    "title": "Browser & Computer Automation",
+    "author": "Jared Friedman",
+    "summary": "Infrastructure enabling AI agents to autonomously browse the web and use desktop applications to automate any workflow humans can do on a computer."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "Internal Agent Builder",
+    "author": "Pete Koomen",
+    "summary": "Infrastructure enabling employees to create and deploy custom agents accessing company software systems securely with proper permissions and data handling."
+   },
+   {
+    "batch": "Fall 2025",
+    "title": "Infrastructure for Multi-Agent Systems",
+    "author": "Pete Koomen",
+    "summary": "Distributed systems infrastructure for multi-agent workflows with monitoring, debugging, cost control, and reliable execution of complex agentic mapreduce jobs."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "Software for Agents",
+    "author": "Aaron Epstein",
+    "summary": "Software with machine-readable interfaces (APIs, MCPs, CLIs) and thorough documentation enabling agents to discover, use, and integrate tools without human intervention."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "Multiplayer AI",
+    "author": "Aaron Epstein",
+    "summary": "Multiplayer agent platforms enabling teams to share live agent sessions, redirect work, collaborate on multi-hour/day/week tasks together."
+   }
+  ],
+  "scope_override": "The CUSTOMER is a developer or an AI agent, and the product is horizontal plumbing that is domain-agnostic: agent SDKs/frameworks, orchestration, sandboxes and browsers for agents to act in, agent observability/eval/debugging, memory and context stores, agent auth/payments/identity rails, control planes for running agents, or software built to be consumed by agents rather than humans. It would work for any industry. INCLUDE a company selling a platform or toolkit so OTHER teams build their own agents, even when sold to enterprises. EXCLUDE a finished agent that performs one industry's work (that is vertical-agents) and EXCLUDE horizontal business software that merely uses agents internally."
+ },
+ {
+  "id": "vertical-agents",
+  "name": "Vertical AI agents",
+  "active_batches": [
+   "Spring 2025"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "Vertical AI Agents",
+    "author": "Jared Friedman",
+    "summary": "Carefully tuned AI agents automating real, important work in specific verticals (tax, medical billing, support, compliance, QA) achieving human-level performance."
+   }
+  ],
+  "scope_override": "The CUSTOMER is an end business in a SPECIFIC industry or job function, and the product is a working agent that performs that industry's actual labour: medical billing, tax prep, insurance claims, recruiting screens, dental or clinic front desk, freight dispatch, legal intake, audit, construction scheduling, restaurant ops, and the like. The value is embedded domain knowledge and workflow, not the plumbing. INCLUDE a finished agent doing one industry's or one function's work even when the underlying technology is impressive. EXCLUDE developer platforms for building agents (that is agent-infrastructure) and EXCLUDE generic horizontal software with no industry specialisation."
+ },
+ {
+  "id": "personal-assistants",
+  "name": "AI personal assistants & staff",
+  "active_batches": [
+   "Spring 2025",
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "AI Personal Staff for Everyone",
+    "author": "David Lieb",
+    "summary": "AI replacing personalized knowledge work services (tax accounting, legal advice, financial management, tutoring, personal training) at scale."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "AI Personal Assistant",
+    "author": "Tom Blomfield",
+    "summary": "LLM-powered personal assistant deeply understanding work history, routines, communication, and preferences to autonomously handle emails, scheduling, and recurring tasks."
+   },
+   {
+    "batch": "Summer 2025",
+    "title": "AI Voice Assistants for Email",
+    "author": "Tyler Bosmeny",
+    "summary": "Voice agents processing email via voice during commutes or when typing is unavailable, enabling inbox triage and response drafting hands-free."
+   }
+  ]
+ },
+ {
+  "id": "voice-ai",
+  "name": "Voice AI",
+  "active_batches": [
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "Voice AI",
+    "author": "Gustaf Alströmer",
+    "summary": "Voice AI agents and conversational LLMs producing customer service bots indistinguishable from humans in quality for business interactions."
+   }
+  ]
+ },
+ {
+  "id": "consumer-ai",
+  "name": "Consumer AI products at billion-user scale",
+  "active_batches": [
+   "Fall 2026"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2026",
+    "title": "AI-Powered Consumer Products for 1 Billion People",
+    "author": "Raphael Schaad",
+    "summary": "Consumer-facing AI products at scale as inference costs plummet, enabling intelligence in how people get things, learn, stay healthy, manage money, and connect."
+   }
+  ]
+ },
+ {
+  "id": "aging-population",
+  "name": "AI for the aging population",
+  "active_batches": [
+   "Fall 2026"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2026",
+    "title": "AI for the Aging Population",
+    "author": "Max Kolysh",
+    "summary": "Voice interfaces, safety monitoring, physical robots, and coordination software enabling aging adults to stay independent and family caregivers to manage care."
+   }
+  ]
+ },
+ {
+  "id": "residential-security",
+  "name": "AI residential security",
+  "active_batches": [
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "AI Residential Security",
+    "author": "Tyler Bosmeny",
+    "summary": "AI-powered home security systems using computer vision and autonomous alerts to make consumers feel genuinely safe at scale."
+   }
+  ]
+ },
+ {
+  "id": "software-engineering-ai",
+  "name": "AI-powered software engineering",
+  "active_batches": [
+   "Fall 2026",
+   "Spring 2025",
+   "Spring 2026"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "The Future of Software Engineering",
+    "author": "Pete Koomen",
+    "summary": "Tools enabling small developer teams to manage large teams of agents working together to build, test, secure, and deploy software."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "Cursor for Product Managers",
+    "author": "Andrew Miklas",
+    "summary": "AI-native product management system synthesizing customer interviews and usage data to recommend features, UI changes, and development tasks."
+   },
+   {
+    "batch": "Fall 2026",
+    "title": "Self-Maintaining APIs",
+    "author": "Harsha Gaddipati",
+    "summary": "Infrastructure applying API changes automatically by scanning customer codebases and opening PRs when vendors ship breaking or new features."
+   }
+  ]
+ },
+ {
+  "id": "devtools-internal",
+  "name": "Devtools inspired by internal tools",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Developer Tools Inspired by Existing Internal Tools",
+    "author": "Dalton Caldwell",
+    "summary": "Developer tools and frameworks inspired by successful homegrown solutions built at prior companies to solve repetitive or painful problems."
+   }
+  ]
+ },
+ {
+  "id": "small-models-training",
+  "name": "Small/fine-tuned models & training tooling",
+  "active_batches": [
+   "Spring 2026",
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Small Fine-tuned Models as an Alternative to Giant Generic Ones",
+    "author": "Nicolas Dessaigne",
+    "summary": "Tools and infrastructure for fine-tuning specialized smaller models (like Llama2, Mistral) on domain-specific data or running them at the edge with comparable performance to giant models."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "Make LLMs Easy to Train",
+    "author": "Gabriel Birnbaum",
+    "summary": "Tools, APIs, dev environments, and databases simplifying LLM training, data management, and experimentation for specialized model development."
+   }
+  ]
+ },
+ {
+  "id": "explainable-ai",
+  "name": "Explainable AI",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Explainable AI",
+    "author": "Diana Hu and Nicolas Dessaigne",
+    "summary": "Interpretable AI models or tools to explain output of existing models for trust-critical applications like medical diagnosis and bias assessment."
+   }
+  ]
+ },
+ {
+  "id": "ml-simulation",
+  "name": "ML simulation of the physical world",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Using Machine Learning to Simulate the Physical World",
+    "author": "Diana Hu and Jared Friedman",
+    "summary": "Startups replacing physics/chemistry simulations with ML models for weather prediction, computational fluid dynamics, and drug discovery that run faster and cheaper than traditional solvers. Include companies opening new markets currently unaddressable by expensive simulations."
+   }
+  ]
+ },
+ {
+  "id": "spatial-computing",
+  "name": "Spatial computing (AR/VR)",
+  "active_batches": [
+   "Summer 2024"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2024",
+    "title": "Spatial Computing",
+    "author": "Diana Hu",
+    "summary": "Applications, tools, and infrastructure for AR/VR/MR experiences merging physical and digital worlds for consumers and enterprises."
+   }
+  ]
+ },
+ {
+  "id": "large-spatial-models",
+  "name": "Large spatial models",
+  "active_batches": [
+   "Spring 2026"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2026",
+    "title": "Large Spatial Models",
+    "author": "Ryan McLinko",
+    "summary": "Foundation models treating geometry and spatial reasoning as first-class primitives to enable AI reasoning about physical objects and design."
+   }
+  ]
+ },
+ {
+  "id": "video-generation",
+  "name": "Video generation as a primitive",
+  "active_batches": [
+   "Fall 2025"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2025",
+    "title": "Video Generation as a Primitive",
+    "author": "David Lieb",
+    "summary": "Applications treating video generation as a computing primitive enabling personalized content, virtual try-on for e-commerce, AI-native media, and gaming."
+   }
+  ]
+ },
+ {
+  "id": "discovery-engines",
+  "name": "AI-native scientific discovery engines (closed design-make-test-analyze loops)",
+  "active_batches": [
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2026",
+    "title": "AI-Native Discovery Engines",
+    "author": "Jon Xu",
+    "summary": "AI systems running closed design-make-test-analyze loops autonomously, advancing scientific discovery in drug discovery, materials science, and protein engineering."
+   }
+  ]
+ },
+ {
+  "id": "ai-native-services",
+  "name": "Full-stack AI-native service companies",
+  "active_batches": [
+   "Fall 2025",
+   "Spring 2026",
+   "Summer 2025",
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "Full-stack AI Companies",
+    "author": "Jared Friedman",
+    "summary": "Companies replacing entire industries with AI instead of selling tools to incumbents—becoming the provider of services themselves."
+   },
+   {
+    "batch": "Fall 2025",
+    "title": "The First 10-person, $100B Company",
+    "author": "Aaron Epstein",
+    "summary": "High-agency teams optimizing for revenue per employee, using AI to scale efficiently with minimal headcount while maintaining speed and focus."
+   },
+   {
+    "batch": "Spring 2026",
+    "title": "AI-Native Agencies",
+    "author": "Aaron Epstein",
+    "summary": "Service agencies (design, advertising, legal) using AI to produce finished work upfront, charging 100x software margins while scaling beyond traditional agencies."
+   },
+   {
+    "batch": "Summer 2026",
+    "title": "AI-Native Service Companies",
+    "author": "Gustaf Alströmer",
+    "summary": "Service companies (insurance brokerage, accounting, compliance, healthcare administration) using AI to deliver services directly rather than tools to help humans."
+   }
+  ]
+ },
+ {
+  "id": "one-million-jobs",
+  "name": "One million jobs",
+  "active_batches": [
+   "Winter 2025"
+  ],
+  "members": [
+   {
+    "batch": "Winter 2025",
+    "title": "One Million Jobs 2.0",
+    "author": "Dalton Caldwell",
+    "summary": "Startups creating new types of work and careers that inherently require humans in an AI economy, enabling millions to run local businesses or provide services."
+   }
+  ]
+ },
+ {
+  "id": "secure-ai-appstore",
+  "name": "Secure AI app store",
+  "active_batches": [
+   "Spring 2025"
+  ],
+  "members": [
+   {
+    "batch": "Spring 2025",
+    "title": "A Secure AI App Store",
+    "author": "Garry Tan",
+    "summary": "OS/app store layer protecting user data with granular app permissions, shared memory across apps, vetted discovery, and developer APIs for building privacy-preserving AI applications."
+   }
+  ]
+ },
+ {
+  "id": "dynamic-interfaces",
+  "name": "Dynamic software interfaces",
+  "active_batches": [
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2026",
+    "title": "Dynamic Software Interfaces",
+    "author": "Ankit Gupta",
+    "summary": "Software with interfaces dynamically customized per user by coding agents, sharing underlying primitives while enabling radical per-user customization."
+   }
+  ]
+ },
+ {
+  "id": "cloud-small-software",
+  "name": "Cloud for small/personal software",
+  "active_batches": [
+   "Fall 2026"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2026",
+    "title": "A Cloud for Small Software",
+    "author": "Pete Koomen",
+    "summary": "Cloud infrastructure optimized for bespoke single-user or small-team software with easy deployment, sharing, permissions, and auth without Big Cloud complexity."
+   }
+  ]
+ },
+ {
+  "id": "agriculture",
+  "name": "AI for agriculture",
+  "active_batches": [
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2026",
+    "title": "AI for Low-Pesticide Agriculture",
+    "author": "Garry Tan",
+    "summary": "AI identifying individual weeds/pests and robotics/biotech solutions replacing chemical pesticides while maintaining or increasing crop yields."
+   }
+  ]
+ },
+ {
+  "id": "enterprise-sales",
+  "name": "Selling to huge companies",
+  "active_batches": [
+   "Summer 2026"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2026",
+    "title": "Startups That Want to Sell to Huge Companies",
+    "author": "Harshita Arora and Brad Flora",
+    "summary": "Teams selling to Fortune 100 companies, landing multi-million dollar deals and pilot programs within year 1 of founding."
+   }
+  ]
+ },
+ {
+  "id": "human-verification",
+  "name": "Human verification & deepfake defense",
+  "active_batches": [
+   "Fall 2026"
+  ],
+  "members": [
+   {
+    "batch": "Fall 2026",
+    "title": "Proving You're Human",
+    "author": "Max Kolysh",
+    "summary": "Verification systems distinguishing verified humans from deepfakes and voice clones to rebuild trust layers against fraud and AI-generated impersonation."
+   }
+  ]
+ },
+ {
+  "id": "ai-research-labs",
+  "name": "AI research labs",
+  "active_batches": [
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "AI Research Labs",
+    "author": "Jared Friedman",
+    "summary": "Independent AI research labs pursuing deep, open-ended research projects that may take years to commercialize, similar to OpenAI's founding model."
+   }
+  ]
+ },
+ {
+  "id": "design-founders",
+  "name": "Design-led founders/products",
+  "active_batches": [
+   "Summer 2025"
+  ],
+  "members": [
+   {
+    "batch": "Summer 2025",
+    "title": "More Design Founders",
+    "author": "Aaron Epstein",
+    "summary": "Designers launching their own companies using AI to build and ship products faster while embedding exceptional design and taste."
+   }
+  ]
+ }
+]

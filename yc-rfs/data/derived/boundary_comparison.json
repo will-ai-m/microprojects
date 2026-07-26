@@ -1,0 +1,57 @@
+{
+ "description": "Effect of tightening the boundary between the two largest, most overlapping themes. v3 (sharp) is the primary labelling; v2 (fuzzy) is retained for comparison.",
+ "themes": {
+  "agent-infrastructure": {
+   "name": "AI agent infrastructure & devtools",
+   "v3": {
+    "share_baseline": 0.06036363636363636,
+    "share_active": 0.17003367003367004,
+    "diff": 0.10967003367003367,
+    "ci95": [
+     0.07783164983164985,
+     0.1428821548821549
+    ],
+    "n_matched": 385
+   },
+   "v2": {
+    "share_baseline": 0.056,
+    "share_active": 0.11784511784511785,
+    "diff": 0.06184511784511785,
+    "ci95": [
+     0.03241750841750843,
+     0.09127272727272726
+    ],
+    "n_matched": 323
+   },
+   "strict_probe_diff": 0.002
+  },
+  "vertical-agents": {
+   "name": "Vertical AI agents",
+   "v3": {
+    "share_baseline": 0.18109090909090908,
+    "share_active": 0.25874125874125875,
+    "diff": 0.07765034965034967,
+    "ci95": [
+     0.008167832167832179,
+     0.15295104895104894
+    ],
+    "n_matched": 745
+   },
+   "v2": {
+    "share_baseline": 0.12581818181818183,
+    "share_active": 0.1888111888111888,
+    "diff": 0.06299300699300697,
+    "ci95": [
+     0.00022377622377622863,
+     0.13247552447552452
+    ],
+    "n_matched": 562
+   },
+   "strict_probe_diff": 0.022
+  }
+ },
+ "agent_infra_shift_v2": 0.06184511784511785,
+ "agent_infra_shift_v3": 0.10967003367003367,
+ "agent_infra_shift_strict_probe": 0.002,
+ "swing_factor": 55
+}
