@@ -11,7 +11,7 @@ As of 2026-10-25.
 ## Key Question 1: Company-by-company profiles (model, US footprint, funding, scale, take rate, outcome)
 
 ### Takeaway
-The clearest documented failure is REEF Technology (parking garages plus ghost kitchens): 750 layoffs in May 2022, kitchen closures in 2022 to 2023, and a 2023 pivot to licensing its tech. Durable signals exist for SpotHero (multi-round funding through 2019, no later round found), Bounce ($19M Series B, Nov 2024), ResortPass (Marriott global agreement, May 27, 2026), and Fever (valued above $1B in 2022). Swimply, Sniffspot, Neighbor, and Giggster raised money or have listed inventory, but I could not verify current scale or status for any of them after 2023. Take rates were verified only for Sniffspot (22%) and Giggster (19% per Tagvenue; ~15% producer fee per Giggster's own claim). None were verified for SpotHero, ResortPass, Swimply, Bounce, or Fever.
+The clearest documented failure is REEF Technology (parking garages plus ghost kitchens): 750 layoffs in May 2022, kitchen closures in 2022 to 2023, and a 2023 pivot to licensing its tech. Durable signals exist for SpotHero (multi-round funding through 2019, no later round found), Bounce ($19M Series B, Nov 2024), ResortPass (Marriott global agreement, May 27, 2026), and Fever (valued above $1B in 2022). Swimply, Sniffspot, Neighbor, and Giggster raised money or have listed inventory, but I could not verify current scale or status for any of them after 2023. Take rates were reported only for Sniffspot (22%, aggregator summary) and Giggster (19% host commission per Tagvenue; ~15% producer fee per Giggster's own claim). None were found for SpotHero, ResortPass, Swimply, Bounce, or Fever.
 
 ### Cited Findings
 
@@ -70,7 +70,7 @@ The clearest documented failure is REEF Technology (parking garages plus ghost k
 - [primary listings, promotional] Discounts up to 75% off the nightly rate. Grand Hyatt Atlanta example: $104 versus $199 nightly. DayBreakHotels cites day rooms from about $40.
 - Funding, ownership, and take rate: not found. Gap.
 
-**Bounce (luggage storage in partner shops and hotels; global, US-founded per its press release)**
+**Bounce (luggage storage in partner shops and hotels; global network; press release datelined San Francisco)**
 - [news, 2024-11-12] $19M Series B led by Sapphire Sport. Existing investors a16z and General Catalyst. New: Thayer Ventures, FJ Labs, 20VC Growth, Shilling. [TechCrunch](https://techcrunch.com/2024/11/12/bounce-grabs-19m-to-expand-its-traveller-convenience-network/); company release dated 2024-11-14 (via [Retail Technology Innovation Hub](https://retailtechinnovationhub.com/home/2024/11/14/global-luggage-storage-network-bounce-announces-19-million-series-b-to-accelerate-market-expansion)).
 - [primary/company claim] Series A of $12M (spring 2022). Company says revenue grew about 20x since the Series A (company claim, unverified).
 - [primary/company claim] More than 13,000 partner sites in about 100 countries. More than 6M bags stored. Projects about 30,000 locations by end of 2026 (forward-looking).
@@ -92,11 +92,11 @@ The clearest documented failure is REEF Technology (parking garages plus ghost k
 - Gap: no 2023 to 2026 funding news found.
 
 **Peerspace (comparison only)**
-- [company resource] Lists gyms and yoga studios rented hourly in multiple US cities. [Peerspace](https://www.peerspace.com/resources/rent-fitness-space-by-the-hour/)
+- [company resource] Lists gyms and yoga studios rented hourly across many cities and several countries (not only US). [Peerspace](https://www.peerspace.com/resources/rent-fitness-space-by-the-hour/)
 - Gap: funding, take rate, and studio-category performance not searched.
 
 **Sola Salon Studios (leasing contrast)**
-- [company] Rents fully equipped salon suites to independent beauty professionals. Claims 650+ locations and 20,000+ professionals. This is operator leasing, not owner off-hours monetization. [Sola](https://www.solasalonstudios.com/regions/new-york-city)
+- [company] Rents fully equipped salon suites to independent beauty professionals. Claims 650+ locations and 20,000+ professionals. This is operator leasing, not owner off-hours monetization. [Sola](https://www.solasalonstudios.com)
 - [company] Example: Williamsburg (Brooklyn), 33 studios in a Mill Building. Carmel Valley (San Diego) has window suites and a separate spa room.
 - Pricing and availability not found. SuiteFinder listings are about 930 days old and may be stale.
 - Gap: no financials or outcome data.
@@ -139,11 +139,11 @@ The clearest documented failure is REEF Technology (parking garages plus ghost k
 The stronger signals in this session (Bounce's 2024 round, ResortPass's Marriott deal, Fever's valuation, SpotHero's multi-round history) share a recurring need or a demand-creating platform, plus supply that is already operated by someone else (hotels, shops, existing parking). The evidence is thin, so the common-factor claims below are inferences.
 
 ### Cited Findings
-- [news, 2026-05-27] Marriott uses ResortPass to sell day-use amenity access. Supply is hotel-owned, so the hotel carries the operating risk. [Skift](https://skift.com/2026/05/27/marriott-signs-resortpass-deal-why-hotels-are-pushing-to-sell-more-than-rooms/)
-- [news, 2024-11-12] Bounce ($19M Series B) uses partner shops, which keep the operating role; Bounce supplies the demand and booking. [TechCrunch](https://techcrunch.com/2024/11/12/bounce-grabs-19m-to-expand-its-traveller-convenience-network/)
+- [news, 2026-05-27] Marriott uses ResortPass to sell day-use amenity access. Supply is hotel-owned; that the hotel carries the operating risk is my inference. [Skift](https://skift.com/2026/05/27/marriott-signs-resortpass-deal-why-hotels-are-pushing-to-sell-more-than-rooms/)
+- [news, 2024-11-12] Bounce ($19M Series B) books luggage storage in partner shops and hotels, so partner sites supply the space (who carries operating risk is my inference). [TechCrunch](https://techcrunch.com/2024/11/12/bounce-grabs-19m-to-expand-its-traveller-convenience-network/)
 - [company claim] Bounce: 13,000+ partner sites; revenue about 20x since Series A. Company claims, unverified.
-- [agg/news, 2022] Fever created the Candlelight format, packaging concerts as a recurring experience. Valued above $1B. [single-source-ish]
-- [news, 2019 to 2023] SpotHero and ParkWhiz/Arrive are high-frequency, need-driven parking marketplaces that persisted through a 2021 consolidation.
+- [agg/news, 2022] Fever runs the Candlelight concert series, sold as a recurring ticketed experience (creation history not verified here). Fever valued above $1B in 2022. [single-source-ish]
+- [news/agg, 2014 to 2021] SpotHero and ParkWhiz/Arrive operate high-frequency, need-driven parking marketplaces. ParkWhiz/Arrive merged with FlashParking in 2021. SpotHero's post-2019 status is unverified.
 - [agg] Sniffspot's 22% take rate and $2M host liability policy (one source) show that insurance is part of the platform offer. [single]
 - [news, 2024-07-26] Host anecdote: a dog-park host earned enough from Sniffspot to fund a fourth site. Anecdotal. [CNBC](https://www.cnbc.com/make-it/2024/07/26/backyard-side-hustle-renting-out-land-as-private-dog-park-sniffspot.html) [single]
 
@@ -163,7 +163,7 @@ The stronger signals in this session (Bounce's 2024 round, ResortPass's Marriott
 ## Key Question 3: What killed the failures?
 
 ### Takeaway
-The only documented failure in this session is REEF Technology's ghost-kitchen line. Its losses, health and permitting problems in some markets, and lease-based kitchen costs led to 2022 layoffs, closures in 2022 to 2023, and a licensing pivot in 2023. Its parking business was spared in the 2022 cuts. No failure cases were documented for gym, studio, photo, salon, or music rehearsal platforms in this session.
+The only documented failure in this session is REEF Technology's ghost-kitchen line. Reported losses and health and permitting problems in some markets, plus (inferred) lease-based kitchen costs, preceded the 2022 layoffs, closures in 2022 to 2023, and a licensing pivot in 2023. Its parking business was spared in the 2022 cuts. No failure cases were documented for gym, studio, photo, salon, or music rehearsal platforms in this session.
 
 ### Cited Findings
 - [news, 2022-05] 750 layoffs (about 5%). Parking division exempt. Shift to profitability and focus on ghost kitchens and parking. [Commercial Observer](https://commercialobserver.com/2022/05/softbank-backed-reef-technology-laying-off-750-employees/)
@@ -199,7 +199,7 @@ The documented fights concentrate on residential backyard pool rentals (Swimply-
 - [news, 2022] San Jose: private pool rental not permitted under city code as of 2022; a resident is pushing to change that. [Patch](https://patch.com/california/campbell/why-renting-your-pool-illegal-san-jose)
 - [single, no source link] Denver: a city spokesperson says residential pools cannot be used commercially.
 - [single, no source link] Several jurisdictions (San Jose, New Jersey towns, Wisconsin) have tried over the past three years to ban such rentals or apply public-pool standards to private pools.
-- [news, undated] Host-side coverage notes that Swimply hosts face these rules directly. [PoolPro](https://poolpromag.com/i-listed-my-pool-on-swimply-heres-what-i-found/) (not read)
+- [news, undated] Host-side article, title only (not read): "I listed my pool on Swimply. Here's what I found." [PoolPro](https://poolpromag.com/i-listed-my-pool-on-swimply-heres-what-i-found/)
 
 ### Inferences
 - The enforcement logic is public-pool health standards (inspection, lifeguard, and water-quality rules) plus short-term-rental and neighborhood concerns. Insurance and hour or guest caps are the likely next compliance tools (Carmel draft).

@@ -10,7 +10,7 @@ The clearest failure is Breather, a leasing-based room operator that spent nearl
 ### Cited Findings
 
 #### Breather (leased rooms; the main failure case)
-- Capital: Breather had spent nearly all of its ~$122M in venture funding by late 2020 — [BetaKit](https://betakit.com/breathers-us-uts-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
+- Capital: Breather had spent nearly all of its ~$122M in venture funding by late 2020 — [BetaKit](https://betakit.com/breathers-us-uk-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
 - Total raised: ~$127M since 2012 per PitchBook; a nine-figure valuation in 2019 — [The Logic](https://thelogic.co/?p=135399) [trade press, summary-only]
 - Status records: CB Insights lists a "Dead" entry dated 12/10/2020, which is ambiguous; its financials page could not be read — [CB Insights](https://www.cbinsights.com/company/breather/financials) [aggregator, summary-only]
 - Model: leased conference and meeting rooms from building owners and resold them by the hour; launch-era coverage called it a "Zipcar for rooms" (launch date not in snippet) — [VentureBeat](https://venturebeat.com/business/breather-debuts-zipcar-for-rooms-to-give-you-peace-and-quiet-on-demand) [trade press]
@@ -19,7 +19,7 @@ The clearest failure is Breather, a leasing-based room operator that spent nearl
 - Dec 2020: Landlord Pink Stone Capital sued to remove Breather from a SoHo building, claiming $79,000 in unpaid rent after terminating the lease; Breather had not left — [Allwork](https://allwork.space/2020/12/breather-sued-by-new-york-city-landlord/) [trade press, summary-only]
 - Breather announced it would close all physical locations and become an online flexible-office platform (date not in snippet, 2020) — [Allwork](https://allwork.space/2020/12/breather-sued-by-new-york-city-landlord/) [trade press, summary-only]
 - Dec 2020 (per summary): The Logic reported Breather abandoning hundreds of leases — [The Logic](https://thelogic.co/news/the-big-read/out-of-breath-inside-breathers-rise-and-fall/) [trade press, summary-only; the piece was not opened]
-- 2020: Breather's US and UK subsidiaries reportedly filed for insolvency (headline says "reportedly"; exact date not in snippet). BetaKit attributes the collapse to COVID-19 hitting a company already in financial trouble, and says the CEO wanted to rebuild around technology instead of leasing spaces — [BetaKit](https://betakit.com/breathers-us-uts-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
+- 2020: Breather's US and UK subsidiaries reportedly filed for insolvency (headline says "reportedly"; exact date not in snippet). BetaKit attributes the collapse to COVID-19 hitting a company already in financial trouble, and says the CEO wanted to rebuild around technology instead of leasing spaces — [BetaKit](https://betakit.com/breathers-us-uk-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
 - May 2021: Industrious acquired key assets of Breather's listings platform. Breather then operated as a marketplace where third-party landlords list conference rooms for booking — [Wikipedia](https://en.wikipedia.org/wiki/Breather_(company)) [aggregator]
 - Deal terms (single source for price and terms): cash price US$3M against ~$127M raised; Industrious made an April 20 offer letter, shareholder approval deadline May 27, closing expected May 28 (2021). Proceeds were not expected to cover senior preferred, leaving junior preferred and common holders slated for nothing — [The Logic](https://thelogic.co/?p=135399) [trade press, summary-only; single source]
 - Scope conflict: The Logic describes a purchase of the company; Wikipedia describes a purchase of the listings platform's key assets. Unresolved.
@@ -116,7 +116,7 @@ Leasing looks like an amplifier of the COVID shock rather than a sole cause. Bre
 
 ### Cited Findings
 - Breather's landlord dispute: Pink Stone Capital claimed $79,000 in unpaid rent after terminating a SoHo lease; Breather had not vacated — [Allwork](https://allwork.space/2020/12/breather-sued-by-new-york-city-landlord/) [trade press, summary-only]
-- Breather's CEO reportedly wanted to rebuild around technology rather than leasing spaces — [BetaKit](https://betakit.com/breathers-us-uts-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
+- Breather's CEO reportedly wanted to rebuild around technology rather than leasing spaces — [BetaKit](https://betakit.com/breathers-us-uk-subsidiaries-reportedly-file-for-insolvency/) [trade press, summary-only]
 - COVID-19 "hit a company already in financial trouble" (BetaKit, 2020) — same source, summary-only
 - KettleSpace's sale of its physical business was attributed to the pandemic lull in office demand — [BusinessWire, Apr 26, 2022](https://www.businesswire.com/news/home/20220426005505/en/) [primary, press release; the pandemic link comes from a summary]
 - Post-pandemic capital went to asset-light operators: WeWork led $30M into Upflex (June 2022) — [Verdantix](https://www.verdantix.com/insights/blogs/wework-invests-30m-into-upflex-to-capture-the-growing-opportunities-from-dispersed-hybrid-working-patterns); ResortPass raised $26M (Nov 2022) — [BusinessWire](https://www.businesswire.com/news/home/20221130005386/en/ResortPass-Raises-26-Million-Series-B-for-Hotel-Amenity-Access); Gable raised $12M (Feb 2023) — [TechCrunch](https://techcrunch.com/2023/02/28/gable-series-a)
@@ -218,7 +218,7 @@ I found no founder post-mortem. The most relevant long-form candidate, The Logic
 ## Leads not yet opened (priority order for a follow-up pass)
 1. The Logic, "out of breath inside Breathers rise and fall" — [link](https://thelogic.co/news/the-big-read/out-of-breath-inside-breathers-rise-and-fall/)
 2. The Logic, Breather and Industrious deal coverage — [link](https://thelogic.co/?p=135399)
-3. BetaKit, Breather insolvency (date and detail) — [link](https://betakit.com/breathers-us-uts-subsidiaries-reportedly-file-for-insolvency/)
+3. BetaKit, Breather insolvency (date and detail) — [link](https://betakit.com/breathers-us-uk-subsidiaries-reportedly-file-for-insolvency/)
 4. Allwork, Breather lawsuit and closure coverage — [link](https://allwork.space/2020/12/breather-sued-by-new-york-city-landlord/)
 5. Bisnow, Codi timeshare report (date) — [link](https://www.bisnow.com/news/national/coworking/san-fran-flex-office-startup-is-like-the-timeshare-for-office-116007)
 6. Entrepreneur, Spacious and WeWork acquisition (year and cause) — [link](https://www.entrepreneur.com/article/277578)
